@@ -201,7 +201,7 @@ export const allproducts = [
         title: 'سوزن ته گرد',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/07/2-103-300x300.webp",
@@ -218,7 +218,7 @@ export const allproducts = [
         title: 'فنر پوشه',
         brand: 'شهاب تحریر',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/07/%D9%81%D9%86%D8%B1-%D9%BE%D9%88%D8%B4%D9%87-%D8%B4%D9%87%D8%A7%D8%A8-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1-300x300.webp",
@@ -233,7 +233,7 @@ export const allproducts = [
         title: 'فنر پوشه',
         brand: 'WHASHIN',
         country: 'کره جنوبی',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/07/20240702_152109-300x300.webp",
@@ -249,7 +249,7 @@ export const allproducts = [
         title: 'فنر پوشه',
         brand: 'شهاب تحریر',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/07/20240702_152206-300x300.webp",
@@ -265,7 +265,7 @@ export const allproducts = [
         title: 'سوزن ته گرد',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/04/2-46-300x300.webp",
@@ -281,7 +281,7 @@ export const allproducts = [
         title: 'سوزن ته گرد',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/04/1-22-300x300.webp",
@@ -300,7 +300,7 @@ export const allproducts = [
         title: 'سوزن ته گرد',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2024/03/Untitled-2-23-300x300.webp",
@@ -319,7 +319,7 @@ export const allproducts = [
         title: 'گیره چوبی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2023/07/20230720_104421-300x300.jpg.webp",
@@ -334,7 +334,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2022/08/20220821_102115-300x300.jpg",
@@ -351,7 +351,7 @@ export const allproducts = [
         title: 'گیره چوبی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2022/07/20230720_104443-300x300.jpg.webp",
@@ -368,7 +368,7 @@ export const allproducts = [
         title: 'گیره چوبی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2022/07/20220709_102434-300x300.jpg",
@@ -383,7 +383,7 @@ export const allproducts = [
         title: 'گیره چوبی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2022/07/20220709_102452-300x300.jpg",
@@ -398,7 +398,7 @@ export const allproducts = [
         title: 'کلیپس کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2022/02/20220212_132539-300x300.jpg",
@@ -415,7 +415,7 @@ export const allproducts = [
         title: 'گیره دوبل',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2022/02/20220202_164239-300x300.jpg",
@@ -431,7 +431,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/12/75-2-300x300.jpg",
@@ -446,7 +446,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/12/38-2-300x300.jpg",
@@ -462,7 +462,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/12/31-2-300x300.jpg",
@@ -478,7 +478,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/12/10mm-300x300.jpg",
@@ -494,7 +494,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/10/IMG_20211006_193429_649-300x300.jpg",
@@ -513,7 +513,7 @@ export const allproducts = [
         title: 'گیره دوبل',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/10/IMG_20211006_193551_017-300x300.jpg",
@@ -528,7 +528,7 @@ export const allproducts = [
         title: 'گیره پروانه ای',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/07/43-1.jpg",
@@ -543,7 +543,7 @@ export const allproducts = [
         title: 'پونز نقشه',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/02/20241107_094809-300x300.webp",
@@ -558,7 +558,7 @@ export const allproducts = [
         title: 'گیره چوبی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/02/20210221_131543-300x300.jpg",
@@ -573,7 +573,7 @@ export const allproducts = [
         title: 'گیره چوبی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/02/20210221_131426-300x300.jpg",
@@ -588,7 +588,7 @@ export const allproducts = [
         title: 'گیره کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2021/02/20210221_115722-300x300.jpg",
@@ -605,7 +605,7 @@ export const allproducts = [
         title: 'کلیپس کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/06/IMG_20211006_193514_554-300x300.jpg",
@@ -624,7 +624,7 @@ export const allproducts = [
         title: 'کلیپس کاغذ',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/06/IMG_20211006_193606_422-300x300.jpg",
@@ -643,7 +643,7 @@ export const allproducts = [
         title: 'پونز',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/05/SnJmre5Ck9253412-300x300.jpg",
@@ -664,7 +664,7 @@ export const allproducts = [
         title: 'سوزن ته گرد',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/05/IMG_20211006_193402_177-300x300.jpg",
@@ -682,7 +682,7 @@ export const allproducts = [
         title: 'گیره دوبل',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/05/IMG_20211006_193610_463-300x300.jpg",
@@ -704,7 +704,7 @@ export const allproducts = [
         title: 'گیره دوبل',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/05/IMG_20211006_193619_804-300x300.jpg",
@@ -726,7 +726,7 @@ export const allproducts = [
         title: 'گیره دوبل',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 20,
         img: [
           "https://beraito.com/wp-content/uploads/2020/05/IMG_20211006_193623_686-300x300.jpg",
@@ -753,7 +753,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 10,
         img: [
           'https://beraito.com/wp-content/uploads/2024/04/%D9%BE%D8%A7%DB%8C%D9%87-%DA%86%D8%B3%D8%A8-%D9%86%D9%88%DB%8C%D9%86.webp',
@@ -795,7 +795,7 @@ export const allproducts = [
         title: 'قرقره پایه چسب',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 18,
         img: [
           'https://beraito.com/wp-content/uploads/2024/02/%D9%82%D8%B1%D9%82%D8%B1%D9%87-%DA%A9%D9%88%DA%86%DA%A9.webp',
@@ -813,7 +813,7 @@ export const allproducts = [
         title: 'تیغه پایه چسب',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 12,
         img: [
           'https://beraito.com/wp-content/uploads/2024/02/%D8%AA%DB%8C%D8%BA%D9%87-%D9%BE%D8%A7%DB%8C%D9%87-%DA%86%D8%B3%D8%A8-600x600.webp',
@@ -831,7 +831,7 @@ export const allproducts = [
         title: 'پایه نوار چسب',
         brand: 'سنا پلاستیک',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 14,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/111-600x600.jpg.webp',
@@ -850,7 +850,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k900-600x600.jpg.webp',
@@ -869,7 +869,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k800-600x600.jpg.webp',
@@ -888,7 +888,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k700-1-600x600.jpg.webp',
@@ -906,7 +906,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k600-2-600x600.jpg.webp',
@@ -925,7 +925,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k500-2-600x600.jpg.webp',
@@ -944,7 +944,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k400-600x600.jpg.webp',
@@ -963,7 +963,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k300.jpg.webp',
@@ -983,7 +983,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'کارا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/05/k200.jpg.webp',
@@ -1004,7 +1004,7 @@ export const allproducts = [
         title: 'تیغه چسب نواری',
         brand: 'آذران تحریرات',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 50,
         img: [
           'https://beraito.com/wp-content/uploads/2022/09/gherghere1.jpg',
@@ -1022,7 +1022,7 @@ export const allproducts = [
         title: 'قرقره چسب نواری',
         brand: 'آذران تحریرات',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2022/09/gherghere.jpg',
@@ -1039,7 +1039,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'KW-trio',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2022/01/20220112_135406.jpg',
@@ -1064,7 +1064,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'KW-trio',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 12,
         img: [
           'https://beraito.com/wp-content/uploads/2021/11/3-1-1.jpg',
@@ -1084,7 +1084,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/10/3000-3.jpg',
@@ -1111,7 +1111,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/10/1100-3.jpg',
@@ -1140,7 +1140,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 30,
         img: [
           'https://beraito.com/wp-content/uploads/2021/10/1000.jpg',
@@ -1167,7 +1167,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/10/750-4.jpg',
@@ -1194,7 +1194,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/10/500-1.jpg',
@@ -1220,7 +1220,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'KW-trio',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/08/2365987.jpg',
@@ -1242,7 +1242,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'امیران',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/07/aTfpTPJ3HB253412.jpg',
@@ -1269,7 +1269,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/900-2.jpg',
@@ -1299,7 +1299,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'سنا',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/n6mBgWmvOh253421.jpg',
@@ -1324,7 +1324,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'شهاب تحریر',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/AIr3B5CS6m253412.jpg',
@@ -1350,7 +1350,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'شهاب تحریر',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/T3hMymo32M253421.jpg',
@@ -1373,7 +1373,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'شهاب تحریر',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/detVpk3sG6253412.jpg',
@@ -1399,7 +1399,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'نوین',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: 6,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/m6LD6vVAp6.jpg',
@@ -1426,7 +1426,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'شهاب تحریر',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/vjTAPNT163.jpg',
@@ -1450,7 +1450,7 @@ export const allproducts = [
         title: 'پایه چسب نواری',
         brand: 'امیران',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2020/05/rGPgctxSsZ.jpg',
@@ -2079,7 +2079,7 @@ export const allproducts = [
         title: 'خودکار خوشنویسی',
         brand: 'Canco',
         country: 'ایران',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2022/07/20220709_103600.jpg',
@@ -2172,12 +2172,12 @@ export const allproducts = [
     productsitems: [
       {
         id: 97,
-        desc: "",
+        desc: "کارت بازی کوچک بسته 288 تکه ای (فوتبالی، کارتونی، شخصیت)",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 18,
         img: [
           'https://beraito.com/wp-content/uploads/2025/02/20250212_153628.webp',
@@ -2195,12 +2195,12 @@ export const allproducts = [
       },
       {
         id: 98,
-        desc: "کارت بازی کوچک بسته 288 تکه ای (فوتبالی، کارتونی، شخصیت)",
+        desc: "کارت بازی فوتبالی 8 برگی بزرگ (بازیکنان ایرانی یا خارجی)",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 12,
         img: [
           'https://beraito.com/wp-content/uploads/2023/12/0389e8ae6cf64d5c0d2b06d5b76dd3f33039a02e_1701148051.webp',
@@ -2218,12 +2218,12 @@ export const allproducts = [
       },
       {
         id: 99,
-        desc: "کارت بازی فوتبالی 8 برگی بزرگ (بازیکنان ایرانی یا خارجی)",
+        desc: "سوت پلاستیکی بند دار",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/12/%D8%B3%D9%88%D8%AA-5.webp',
@@ -2240,12 +2240,12 @@ export const allproducts = [
       },
       {
         id: 100,
-        desc: "سوت پلاستیکی بند دار",
+        desc: "شطرنج صفحه مقوایی",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2023/06/25474.jpg.webp'
@@ -2258,12 +2258,12 @@ export const allproducts = [
       },
       {
         id: 101,
-        desc: "شطرنج صفحه مقوایی",
+        desc: "توپ تنیس (توپ ماهوتی)",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/214.jpg'
@@ -2274,12 +2274,12 @@ export const allproducts = [
       },
       {
         id: 102,
-        desc: "توپ تنیس (توپ ماهوتی)",
+        desc: "تاس پلاستیکی شفاف رنگی جفتی",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/210.jpg'
@@ -2290,12 +2290,12 @@ export const allproducts = [
       },
       {
         id: 103,
-        desc: "تاس پلاستیکی شفاف رنگی جفتی",
+        desc: "توپ پینگ پنگ",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/209.jpg'
@@ -2306,12 +2306,12 @@ export const allproducts = [
       },
       {
         id: 104,
-        desc: "توپ پینگ پنگ",
+        desc: "توپ شیطونک سایز کوچک پلاستیکی رنگی",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/208.jpg',
@@ -2324,12 +2324,12 @@ export const allproducts = [
       },
       {
         id: 105,
-        desc: "توپ شیطونک سایز کوچک پلاستیکی رنگی",
+        desc: "لوبیای سحرآمیز مجیک بین Magic Bean Plus پک 15 عددی",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 2,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/198.jpg'
@@ -2341,12 +2341,12 @@ export const allproducts = [
       },
       {
         id: 106,
-        desc: "لوبیای سحرآمیز مجیک بین Magic Bean Plus پک 15 عددی",
+        desc: "شطرنج استاندارد فدراسیونی مدل کیف دار",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/shatranj-2.jpg.webp',
@@ -2367,12 +2367,12 @@ export const allproducts = [
       },
       {
         id: 107,
-        desc: "شطرنج استاندارد فدراسیونی مدل کیف دار",
+        desc: "توپ بدمینتون پلاستیکی مدل LONEX 500",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 6,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/212-3.jpg',
@@ -2385,12 +2385,12 @@ export const allproducts = [
       },
       {
         id: 108,
-        desc: "توپ بدمینتون پلاستیکی مدل LONEX 500",
+        desc: "توپ بدمینتون پلاستیکی مدل LONEX 350",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/211-2.jpg',
@@ -2402,12 +2402,12 @@ export const allproducts = [
       },
       {
         id: 109,
-        desc: "توپ بدمینتون پلاستیکی مدل LONEX 350",
+        desc: "حباب ساز کودکانه حقیقت",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/202.jpg'
@@ -2417,12 +2417,12 @@ export const allproducts = [
       },
       {
         id: 110,
-        desc: "حباب ساز کودکانه حقیقت",
+        desc: "کالسکه اسباب بازی کد 0881",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/190.jpg'
@@ -2436,12 +2436,12 @@ export const allproducts = [
       },
       {
         id: 111,
-        desc: "کالسکه اسباب بازی کد 0881",
+        desc: "بازی چسبونک کد 7",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/187.jpg'
@@ -2456,12 +2456,12 @@ export const allproducts = [
       },
       {
         id: 112,
-        desc: "بازی چسبونک کد 7",
+        desc: "توپ فوتبال رئال مادرید Real Madrid",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/56-3-1.jpg',
@@ -2477,12 +2477,12 @@ export const allproducts = [
       },
       {
         id: 113,
-        desc: "توپ فوتبال رئال مادرید Real Madrid",
+        desc: "بلز 8 نت کودکانه MUSIC ORGAN کد 3303",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/38-1.jpg'
@@ -2494,12 +2494,12 @@ export const allproducts = [
       },
       {
         id: 114,
-        desc: "بلز 8 نت کودکانه MUSIC ORGAN کد 3303",
+        desc: "بولینگ اسباب بازی BOOITOYS کد 3425",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/36-1.jpg',
@@ -2514,12 +2514,12 @@ export const allproducts = [
       },
       {
         id: 115,
-        desc: "بولینگ اسباب بازی BOOITOYS کد 3425",
+        desc: "توپ فوتبال طرح یوونتوس Juventus",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/34-2.jpg',
@@ -2536,12 +2536,12 @@ export const allproducts = [
       },
       {
         id: 116,
-        desc: "توپ فوتبال طرح یوونتوس Juventus",
+        desc: "ست صبحانه خوری اسباب بازی ROYAL PRINCESS",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/16-1.jpg'
@@ -2554,12 +2554,12 @@ export const allproducts = [
       },
       {
         id: 117,
-        desc: "ست صبحانه خوری اسباب بازی ROYAL PRINCESS",
+        desc: "چرخ خیاطی اسباب بازی مدل LITTLE MASTER کد 6942A",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/03/15-1.jpg',
@@ -2575,12 +2575,12 @@ export const allproducts = [
       },
       {
         id: 118,
-        desc: "چرخ خیاطی اسباب بازی مدل LITTLE MASTER کد 6942A",
+        desc: "توپ فوتبال بافتنی",
         price: 50000,
         title: 'ورزش و سرگرمی',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2021/02/20210220_140012-1.jpg',
@@ -2605,7 +2605,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_090231.webp',
@@ -2628,7 +2628,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_091124.webp',
@@ -2651,7 +2651,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_085906.webp',
@@ -2675,7 +2675,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/07/20220629_102049.jpg',
@@ -2697,7 +2697,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_1529378.jpg'
@@ -2718,7 +2718,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152937.jpg',
@@ -2741,7 +2741,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152918.jpg',
@@ -2764,7 +2764,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_1529045.jpg'
@@ -2785,7 +2785,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152900.jpg',
@@ -2807,7 +2807,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/27.jpg'
@@ -2828,7 +2828,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/25.jpg'
@@ -2849,7 +2849,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/24.jpg',
@@ -2871,7 +2871,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_090231.webp',
@@ -2894,7 +2894,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_091124.webp',
@@ -2917,7 +2917,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_085906.webp',
@@ -2941,7 +2941,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/07/20220629_102049.jpg',
@@ -2963,7 +2963,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_1529378.jpg'
@@ -2984,7 +2984,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152937.jpg',
@@ -3007,7 +3007,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152918.jpg',
@@ -3030,7 +3030,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_1529045.jpg'
@@ -3051,7 +3051,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152900.jpg',
@@ -3073,7 +3073,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/27.jpg'
@@ -3094,7 +3094,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/25.jpg'
@@ -3115,7 +3115,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/24.jpg',
@@ -3137,7 +3137,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_090231.webp',
@@ -3160,7 +3160,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: null,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_091124.webp',
@@ -3183,7 +3183,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2024/12/20241128_085906.webp',
@@ -3207,7 +3207,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/07/20220629_102049.jpg',
@@ -3229,7 +3229,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_1529378.jpg'
@@ -3250,7 +3250,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152937.jpg',
@@ -3273,7 +3273,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152918.jpg',
@@ -3296,7 +3296,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_1529045.jpg'
@@ -3317,7 +3317,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2022/02/20220124_152900.jpg',
@@ -3339,7 +3339,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/27.jpg'
@@ -3360,7 +3360,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/25.jpg'
@@ -3381,7 +3381,7 @@ export const allproducts = [
         title: 'کاغذ یادداشت',
         brand: 'متفرقه',
         country: 'چین',
-        color:[''],
+        color: [''],
         discount: 3,
         img: [
           'https://beraito.com/wp-content/uploads/2021/08/24.jpg',
@@ -3764,7 +3764,7 @@ export const allproducts = [
           'https://beraito.com/wp-content/uploads/2024/03/Untitled-1-25-2.webp',
           'https://beraito.com/wp-content/uploads/2024/03/kargah5-2.webp'
         ],
-          feature: [
+        feature: [
           'جنس:نخ ابریشمی',
           'طول نخ:هرکدام ۸ متر',
           'کاربرد:گلدوزی و کوبلن دوزی',
@@ -3984,8 +3984,8 @@ export const allproducts = [
           'https://beraito.com/wp-content/uploads/2024/03/Untitled-1-25-2.webp',
           'https://beraito.com/wp-content/uploads/2024/03/kargah5-2.webp'
         ],
-  
-          feature: [
+
+        feature: [
           'جنس:نخ ابریشمی',
           'طول نخ:هرکدام ۸ متر',
           'کاربرد:گلدوزی و کوبلن دوزی',

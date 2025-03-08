@@ -16,7 +16,7 @@ function CardItems({ slug }) {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [numberIndeex, setNumberIndeex] = useState(null);
   const { minPrice, maxPrice } = UseMinePriceStore();
-  const [imageKeys, setImageKeys] = useState({});
+
   useEffect(() => {
     const foundIndex = allproducts.findIndex(item => item.products.includes(slug));
     if (foundIndex === -1) notFound();
@@ -36,18 +36,12 @@ function CardItems({ slug }) {
     }
   }, [numberIndeex, minPrice, maxPrice, brandValue, countryValue]);
   if (!allproducts[0].productsitems) return <div>Loading...</div>;
-  const handleImageChange = (productId, imageIndex) => {
-    setImageKeys(prevKeys => ({
-      ...prevKeys,
-      [productId]: imageIndex,
-    }));
-  };
+
   return (
   <>
   <CardItemChild 
   filteredProducts={filteredProducts} 
-  imageKeys={imageKeys}
-  handleImageChange={handleImageChange}/>
+/>
   </>
   );
 }

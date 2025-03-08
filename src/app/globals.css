@@ -299,3 +299,20 @@ input[type="number"]::-webkit-outer-spin-button {
   background-repeat: no-repeat;
   background-position: center;
 }
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.before::before{
+  content:"";
+  position:absolute;
+  top: -40;
+  left:-40;
+  background: red;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  rotate: 45deg;
+}

@@ -16,14 +16,14 @@ function Filtering() {
   ];
 
   return (
-    <div className="sticky flex flex-col top-10 right-0 h-[80vh] rounded-2xl overflow-hidden  border text-foreground bg-background">
+    <div className="sticky flex flex-col top-10 right-0 h-[80vh] shadow shadow-gray-700 dark:shadow-gray-200  rounded-2xl overflow-hidden text-foreground bg-background">
       {items.length > 0
         ? items.map((accordion, index) => {
           return (
             <div
               key={index}
               className={`${isOpen === index ? "grow" : "grow-0"
-                } border border-gray-500 px-5 transition-all`}
+                } shadow shadow-gray-700 dark:shadow-gray-200  px-5 transition-all`}
 
             >
               <div className="flex items-center justify-between  py-5" onClick={() => setIsopen(index)}>
@@ -41,8 +41,8 @@ function Filtering() {
               </div>
               {index === 2 ? <FilterPrice styles={`${isOpen === index ? 'h-auto pt-10' : 'h-0'} overflow-hidden flex flex-col gap-20 duration-500`} /> :
                 index === 0 ? <FilteringBrand styles={`${isOpen === index ? 'h-auto pt-10' : 'h-0'} overflow-hidden flex flex-col gap-5 duration-500`} /> :
-                index === 1 ? <FilterCountry styles={`${isOpen === index ? 'h-auto pt-10' : 'h-0'} overflow-hidden flex flex-col gap-5 duration-500`} /> :
-                  null}
+                  index === 1 ? <FilterCountry styles={`${isOpen === index ? 'h-auto pt-10' : 'h-0'} overflow-hidden flex flex-col gap-5 duration-500`} /> :
+                    null}
             </div>
           );
         })

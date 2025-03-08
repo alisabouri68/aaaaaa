@@ -17,6 +17,6 @@ function Container({ children }) {
       window.removeEventListener('resize', handleResize)
     }
   }, [resizeHandler])
-  return <div ref={containerRef} className="2xl:container 2xl:mx-auto h-full">{children}</div>;
+  return <div ref={containerRef} className="2xl:container 2xl:mx-auto h-full w-full">{children}</div>;
 }
 export default Container;

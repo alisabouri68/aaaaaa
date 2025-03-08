@@ -15,7 +15,7 @@ function page() {
     ['text-purple-400','bg-purple-400']
   ]
   return (
-    <main className="grow flex flex-col gap-10">
+    <main className="grow flex flex-col gap-10 ">
       <Slider />
       {dbmegamenu ? dbmegamenu.map((item , index) => {
         return (

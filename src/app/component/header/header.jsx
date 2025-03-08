@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="h-84px">
       <Container>
-        <div className="w-full h-full flex shadow shadow-amber-500 relative z-50">
+        <div className="w-full h-full flex shadow shadow-gray-700 dark:shadow-gray-200 relative z-50">
         <RighHeader>
           <ShopingCart/>
         <BtnToggleTheme />
