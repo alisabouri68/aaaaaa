@@ -24,20 +24,20 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                                 layout="intrinsic"
                                                 width={300}
                                                 height={300}
-                                                src={xxx.img[currentImageKey].trim()}
+                                                src={xxx.img[currentImageKey].trim() || img}
                                                 alt={xxx.desc}
-                                                quality={100}
+                                                unoptimized={true}
                                             />
-                                        ) : loading()}
+                                        ) : <span>در حال بارگذاری</span>}
 
 
                                     </div>
-                                    <div className='h-[10%] flex p-2'>
+                                    <div className='flex border p-2'>
                                         <p className='  h-full w-full truncate'>
                                             {xxx.desc}
                                         </p>
                                     </div>
-                                    <div className="flex flex-col items-center justify-center gap-2 h-[35%] px-2">
+                                    <div className="flex flex-col items-center justify-center gap-2 px-2">
                                         <span className={`${xxx.discount ? 'bg-red-500 rounded-full px-2 py-1 text-white w-full flex items-center justify-center' : "hidden"}`}>
                                             {xxx.discount ? xxx.discount + ' % ' + " تخفیف " : null}
                                         </span>
@@ -68,30 +68,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                         </span>
                                     </button>
                                 </div>
-                                {/* <div className="flex justify-evenly absolute bottom-5 left-3 p-2 w-full">
-                                <div className=''>
-                                    <button className=" min-w-12 min-h-12 ring-4 ring-amber-500 rounded-full bg-white cursor-pointer flex items-center justify-center border-none"
-                                        onClick={()=>setShoppingCart(xxx)}
-                                    >
-                                        <span>
-                                            <CiShoppingBasket className="text-4xl text-black" />
-                                        </span>
-                                    </button>
-                                </div>
-                                <div className=" flex gap-2 items-center">
-                                    {xxx.img &&
-                                        xxx.img.map((_, i) => (
-                                            <span
-                                                key={`${xxx.id}-${i}`}
-                                                onClick={() => handleImageChange(xxx.id, i)}
-                                                className={`${currentImageKey === i
-                                                    ? "min-w-4 max-w-4 min-h-4 max-h-4 bg-amber-400"
-                                                    : "min-w-3 max-w-3 min-h-3 max-h-3 bg-amber-200"
-                                                    } rounded-full flex cursor-pointer`}
-                                            ></span>
-                                        ))}</div>
-
-                            </div> */}
+                                
                             </div>
                         </div>
                     );

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images:{
-        domains: ['beraito.com','www.beraito.com'],
+        domains: ['beraito.com','beraito.com/wp-content/'],
     }
 };
 
