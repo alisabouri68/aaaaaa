@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import img from '../../../../public/img/logo.png'
 import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
+import loading from '@/app/category/[id]/[slug]/loading';
 function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
     const { setShoppingCart } = UseButtonAddBascket()
     return (
@@ -27,9 +28,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                                 alt={xxx.desc}
                                                 quality={100}
                                             />
-                                        ) : (
-                                            <span>تصویر در حال بارگذاری است...</span>
-                                        )}
+                                        ) : loading()}
 
 
                                     </div>
