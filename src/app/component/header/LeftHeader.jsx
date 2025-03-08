@@ -14,6 +14,7 @@ function LeftHeader() {
         height={60}
         alt='logo'
         priority={true}
+        quality={1}
         />
         <Image
         src={logo}
@@ -21,6 +22,7 @@ function LeftHeader() {
         height={60}
         alt='logo'
         priority={true}
+        quality={1}
         />
         
         </Link>

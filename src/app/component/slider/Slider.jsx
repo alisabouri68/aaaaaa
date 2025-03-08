@@ -49,6 +49,7 @@ function Slider() {
                             className="object-cover"
                             sizes="(min-width: 768px) 100vw, 75vw"
                             priority={index === 0}
+                            quality={1}
                         />
                     </div>
                 ))}

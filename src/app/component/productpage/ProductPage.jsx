@@ -16,7 +16,7 @@ function ProductPage({ product, children }) {
         let found = false
         allproducts.map((a, b) => {
             a.productsitems.map((c, d) => {
-                const e = c.title + c.id
+                const e = c.title.trim() + c.id
                 if (e === item) {
                     setProductsItemsIndex([b, d])
                     setIndexImgSliderPruduct([b, d])

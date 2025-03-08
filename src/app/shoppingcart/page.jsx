@@ -47,6 +47,7 @@ function ShoppingCart() {
                                                 alt={product.title || "logo"}
                                                 width={200}
                                                 height={200}
+                                                quality={1}
                                             />
 
                                         </td>

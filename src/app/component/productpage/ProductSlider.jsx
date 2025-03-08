@@ -29,6 +29,7 @@ function ProductSlider() {
                     height={600}
                     alt={product.title}
                     priority
+                    quality={1}
                 />
                 
                 <div className='absolute bottom-4 left-0 right-0 mx-auto max-w-[90%]'>
@@ -50,6 +51,7 @@ function ProductSlider() {
                                         sizes="(max-width: 768px) 64px, 96px"
                                         className='rounded-md object-cover'
                                         alt={`${product.title} thumbnail ${index + 1}`}
+                                        quality={1}
                                     />
                                 </div>
                             </button>

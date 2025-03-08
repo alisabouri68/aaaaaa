@@ -25,6 +25,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                         height={300}
                                         src={xxx.img[currentImageKey]?.trim() || "/default-image.jpg"}
                                         alt={xxx.desc}
+                                        quality={1}
                                     />
                                 </div>
                                 <div className="absolute ring-4 ring-amber-500 text-black bg-white rounded-full text-xs right-1 top-1 min-w-24 min-h-24 max-w-24 max-h-24 flex flex-wrap *:w-full *:flex *:items-center *:justify-center items-center justify-center">
