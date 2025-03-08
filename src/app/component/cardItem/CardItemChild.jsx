@@ -23,7 +23,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                             height={100}
                                             src={xxx.img[currentImageKey]?.trim() || img}
                                             alt={xxx.desc}
-                                            quality={100}
+                                            quality={1}
                                         />
 
 
