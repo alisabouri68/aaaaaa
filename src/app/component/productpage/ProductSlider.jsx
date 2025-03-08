@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { allproducts } from '../header/db'
 import { UseIndexSliderProductStore } from '@/app/zustand/UseIndexSliderProductStore'
 import Image from 'next/image'
+import img from '../../../../public/img/logo.png'
 
 function ProductSlider() {
     const { indexImgSliderPruduct } = UseIndexSliderProductStore()
@@ -24,7 +25,7 @@ function ProductSlider() {
             <div className='relative shadow shadow-amber-500 rounded-lg'>
                 <Image
                     className='w-full h-full object-cover rounded-lg'
-                    src={product.img[selectedImageIndex] || '../../../../public/img/logo.png' }
+                    src={  product.img[selectedImageIndex] || img }
                     width={600}
                     height={600}
                     alt={product.title}
@@ -46,7 +47,7 @@ function ProductSlider() {
                             >
                                 <div className='relative w-16 h-16'>
                                     <Image
-                                        src={item || '../../../../public/img/logo.png'}
+                                        src={item || img}
                                         fill
                                         sizes="(max-width: 768px) 64px, 96px"
                                         className='rounded-md object-cover'

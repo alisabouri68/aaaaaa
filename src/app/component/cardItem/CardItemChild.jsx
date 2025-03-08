@@ -3,6 +3,7 @@ import React from 'react'
 import { CiShoppingBasket } from "react-icons/ci";
 import Link from "next/link";
 import Image from "next/image";
+import img from '../../../../public/img/logo.png'
 import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
 function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
     const {setShoppingCart } = UseButtonAddBascket()
@@ -23,7 +24,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                         className="w-full h-full object-cover"
                                         width={300}
                                         height={300}
-                                        src={xxx.img[currentImageKey]?.trim() || '../../../../public/img/logo.png'}
+                                        src={xxx.img[currentImageKey]?.trim() || img}
                                         alt={xxx.desc}
                                         quality={1}
                                     />

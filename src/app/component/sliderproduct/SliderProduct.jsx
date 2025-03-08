@@ -9,6 +9,8 @@ import { dbmegamenu } from '../header/db';
 import { allproducts } from '../header/db';
 import Link from 'next/link';
 import Image from 'next/image';
+import img from '../../../../public/img/logo.png'
+
 function SliderProduct({ styles, i, title, href, colorText, }) {
     const icons = [<FaPenAlt />, <FaPenFancy />, <FaPen />, <FaMouse />, <FaPrint />, <TbGoGame />, <GiSewingMachine />, <GiSewingNeedle />]
     return (
@@ -33,7 +35,7 @@ function SliderProduct({ styles, i, title, href, colorText, }) {
                                                         <Link href="#" className='flex items-center justify-center '>
                                                             <Image
                                                                 className="rounded-lg"
-                                                                src={val.productsitems[3].img[0] || '../../../../public/img/logo.png'}
+                                                                src={val.productsitems[3].img[0] || img }
                                                                 alt={val.productsitems[3].desc}
                                                                 width={250}
                                                                 height={250}

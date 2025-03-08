@@ -5,6 +5,7 @@ import x1 from '../../../../public/img/Rectangle 97.jpg'
 import x2 from '../../../../public/img/Rectangle 99.jpg'
 import x3 from '../../../../public/img/Slider_Element_BOSS_Original_Pastel_1860x750px 1.jpg'
 import x4 from '../../../../public/img/Rectangle 100.jpg'
+import img from '../../../../public/img/logo.png'
 function Slider() {
     const imgSrc = [x1, x2, x3, x4]
     const [activeIndex, setActiveIndex] = useState(0)
@@ -43,7 +44,7 @@ function Slider() {
                         className="relative h-full min-w-full shrink-0 snap-center"
                     >
                         <Image
-                            src={item || '../../../../public/img/logo.png'}
+                            src={item || img}
                             alt={`Slider image ${index + 1}`}
                             fill
                             className="object-cover"
