@@ -17,14 +17,18 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                             <div className='flex flex-col grow min-h-full rounded-2xl overflow-hidden shadow shadow-gray-700 dark:shadow-gray-200'>
                                 <Link href={`/products/${xxx.title.split(" ").filter(Boolean).join("-") + xxx.id}`} className="flex flex-col grow duration-300 dark:hover:bg-gray-500">
                                     <div className='h-[50%] '>
-                                        <Image
-                                            className="w-full h-full object-fit"
-                                            width={100}
-                                            height={100}
-                                            src={xxx.img[currentImageKey]?.trim() ? xxx.img[currentImageKey]?.trim() : img}
-                                            alt={xxx.desc}
-                                            quality={1}
-                                        />
+                                        {xxx.img[currentImageKey]?.trim() ? (
+                                            <Image
+                                                className="w-full h-full object-fit"
+                                                width={100}
+                                                height={100}
+                                                src={xxx.img[currentImageKey].trim()}
+                                                alt={xxx.desc}
+                                                quality={1}
+                                            />
+                                        ) : (
+                                            <span>تصویر در حال بارگذاری است...</span>
+                                        )}
 
 
                                     </div>
@@ -34,18 +38,18 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                         </p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center gap-2 h-[35%] px-2">
-                                            <span className={`${xxx.discount ? 'bg-red-500 rounded-full px-2 py-1 text-white w-full flex items-center justify-center' : "hidden"}`}>
-                                                {xxx.discount ? xxx.discount + ' % ' + " تخفیف " : null}
-                                            </span>
-                                            <span>  {xxx.discount ? <s className="text-gray-400 -translate-y-2">{xxx.price}</s> : null}</span>
-                                    
+                                        <span className={`${xxx.discount ? 'bg-red-500 rounded-full px-2 py-1 text-white w-full flex items-center justify-center' : "hidden"}`}>
+                                            {xxx.discount ? xxx.discount + ' % ' + " تخفیف " : null}
+                                        </span>
+                                        <span>  {xxx.discount ? <s className="text-gray-400 -translate-y-2">{xxx.price}</s> : null}</span>
+
                                         <div className='flex items-center gap-2'>
                                             <span className="">{xxx.discount ? Math.abs((xxx.price * (xxx.discount / 100)) - xxx.price) : xxx.price}</span>
                                             <span className="">تومان</span>
                                         </div>
                                     </div>
                                 </Link>
-                                <div className="flex w-full items-center justify-center gap-2  absolute top-[38%] left-[50%]" style={{transform:'translate(-50% , -50%'}}>
+                                <div className="flex w-full items-center justify-center gap-2  absolute top-[38%] left-[50%]" style={{ transform: 'translate(-50% , -50%' }}>
                                     {xxx.img &&
                                         xxx.img.map((_, i) => (
                                             <span
@@ -58,7 +62,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                             ></span>
                                         ))}</div>
                                 <div className='bg-amber-400 flex justify-center text-5xl'>
-                                    <button onClick={()=>setShoppingCart(xxx)}>
+                                    <button onClick={() => setShoppingCart(xxx)}>
                                         <span>
                                             <CiShoppingBasket />
                                         </span>
