@@ -1872,12 +1872,12 @@ export const allproducts = [
       {
         id: 84,
         desc: "خودکار 20 رنگ زبرا ساراسا با نوک 0.7 میلی متر مدل",
-        price: 1330000,
+        price: 133000,
         title: 'خودکار',
         brand: 'زبرا',
         country: 'ژاپن',
         color: ['20 رنگ'],
-        discount: null,
+        discount: 8,
         img: [
           'https://beraito.com/wp-content/uploads/2024/04/%D8%B3%D8%A7%D8%B1%D8%A7%D8%B3%D8%A7.webp',
           'https://beraito.com/wp-content/uploads/2024/04/%D8%B3%D8%A7%D8%B1%D8%A7%D8%B3%D8%A72.webp'

@@ -18,7 +18,7 @@ console.log(params)
             <div className="col-span-3 relative rounded-lg">
               <Filtering />
             </div>
-            <div className="col-span-9 *:min-h-[430px] *:max-h-[430px] *:min-w-full *:lg:min-w-[33%] *:lg:max-w-[33%]  *:2xl:min-w-[25%] *:2xl:max-w-[25%] flex flex-wrap items-start justify-start px-5">
+            <div className="col-span-9 flex flex-wrap *:w-full *:md:w-[50%] *:lg:w-[33%] *:xl:w-[25%] px-3">
               <CardItems slug={slug} />
             </div>
           </div>
