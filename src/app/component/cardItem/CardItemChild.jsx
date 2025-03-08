@@ -21,8 +21,8 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                             <Image
                                                 className="w-full h-full object-fit"
                                                 layout="intrinsic"
-                                                width={100}
-                                                height={100}
+                                                width={300}
+                                                height={300}
                                                 src={xxx.img[currentImageKey].trim()}
                                                 alt={xxx.desc}
                                                 quality={100}
