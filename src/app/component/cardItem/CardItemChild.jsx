@@ -23,7 +23,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                         className="w-full h-full object-cover"
                                         width={300}
                                         height={300}
-                                        src={xxx.img[currentImageKey]?.trim() || "/default-image.jpg"}
+                                        src={xxx.img[currentImageKey]?.trim() || '../../../../public/img/logo.png'}
                                         alt={xxx.desc}
                                         quality={1}
                                     />

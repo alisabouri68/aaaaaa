@@ -43,7 +43,7 @@ function Slider() {
                         className="relative h-full min-w-full shrink-0 snap-center"
                     >
                         <Image
-                            src={item}
+                            src={item || '../../../../public/img/logo.png'}
                             alt={`Slider image ${index + 1}`}
                             fill
                             className="object-cover"

@@ -33,7 +33,7 @@ function SliderProduct({ styles, i, title, href, colorText, }) {
                                                         <Link href="#" className='flex items-center justify-center '>
                                                             <Image
                                                                 className="rounded-lg"
-                                                                src={val.productsitems[3].img[0]}
+                                                                src={val.productsitems[3].img[0] || '../../../../public/img/logo.png'}
                                                                 alt={val.productsitems[3].desc}
                                                                 width={250}
                                                                 height={250}

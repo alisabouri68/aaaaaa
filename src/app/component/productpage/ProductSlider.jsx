@@ -24,7 +24,7 @@ function ProductSlider() {
             <div className='relative shadow shadow-amber-500 rounded-lg'>
                 <Image
                     className='w-full h-full object-cover rounded-lg'
-                    src={product.img[selectedImageIndex] }
+                    src={product.img[selectedImageIndex] || '../../../../public/img/logo.png' }
                     width={600}
                     height={600}
                     alt={product.title}
@@ -46,7 +46,7 @@ function ProductSlider() {
                             >
                                 <div className='relative w-16 h-16'>
                                     <Image
-                                        src={item}
+                                        src={item || '../../../../public/img/logo.png'}
                                         fill
                                         sizes="(max-width: 768px) 64px, 96px"
                                         className='rounded-md object-cover'
