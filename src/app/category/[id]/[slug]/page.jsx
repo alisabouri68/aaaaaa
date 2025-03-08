@@ -7,8 +7,6 @@ import CardItems from "@/app/component/cardItem/CardItems";
 import Filtering from "@/app/component/filtering/Filtering";
 function page({ params }) {
   const { slug } = use(params);
-console.log(slug)
-console.log(params)
   return (
     <>
       <Breadcrumb />
