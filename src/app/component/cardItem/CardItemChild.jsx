@@ -16,7 +16,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                         <div className=" pl-5 pb-5 flex relative" key={xxx.id}>
                             <div className='flex flex-col grow min-h-full rounded-2xl overflow-hidden shadow shadow-gray-700 dark:shadow-gray-200'>
                                 <Link href={`/products/${xxx.title.split(" ").filter(Boolean).join("-") + xxx.id}`} className="flex flex-col grow duration-300 dark:hover:bg-gray-500">
-                                    <div className='h-[50%] '>
+                                    <div className='h-full border border-red-700'>
                                         {xxx.img[currentImageKey]?.trim() ? (
                                             <Image
                                                 className="w-full h-full object-fit"
