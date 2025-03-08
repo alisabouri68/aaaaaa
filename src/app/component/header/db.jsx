@@ -1899,10 +1899,10 @@ export const allproducts = [
         color: ['ابی', 'قرمز', 'مشکی'],
         discount: null,
         img: [
-          'https://beraito.com/wp-content/bbbbbuploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3.webp',
-          'https://beraito.com/wp-content/bbbbbuploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3-2.webp',
-          'https://beraito.com/wp-content/bbbbbuploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3-3.webp',
-          'https://beraito.com/wp-content/bbbbbuploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3-4.webp',
+          'https://beraito.com/wp-content/uploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3.webp',
+          'https://beraito.com/wp-content/uploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/02/%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1-%D8%B3%DB%8C-%DA%A9%D9%84%D8%A7%D8%B3-%D9%BE%D8%B1%D9%88%D9%85%DB%8C%D8%B3-4.webp',
         ],
         feature: [
           'ضخامت نوک:0.7 میلی متر',

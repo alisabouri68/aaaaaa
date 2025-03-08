@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import { CiShoppingBasket } from "react-icons/ci";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,11 +8,16 @@ import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
 import loading from '@/app/category/[id]/[slug]/loading';
 function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
     const { setShoppingCart } = UseButtonAddBascket()
+    const [imgSrc, setImgSrc] = useState();
+    const handleError = () => {
+        setImgSrc(img); // در صورت خطا، تصویر پیش‌فرض را تنظیم کنید
+      };
     return (
         <>
             {filteredProducts.length > 0 &&
                 filteredProducts.map((xxx) => {
                     const currentImageKey = imageKeys[xxx.id] || 0;
+                  
                     return (
                         <div className=" pl-5 pb-5 flex relative" key={xxx.id}>
                             <div className='flex flex-col grow min-h-full rounded-2xl overflow-hidden shadow shadow-gray-700 dark:shadow-gray-200'>
@@ -27,6 +32,9 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                                 src={xxx.img[currentImageKey].trim() || img}
                                                 alt={xxx.desc}
                                                 unoptimized={true}
+                                                onError={(e) => {
+                                                    e.target.src = img.src; // در صورت خطا، تصویر پیش‌فرض جایگزین می‌شود
+                                                }}
                                             />
                                         ) : <span>در حال بارگذاری</span>}
 
