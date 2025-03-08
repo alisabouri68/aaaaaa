@@ -21,7 +21,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                             className="w-full h-full object-fit"
                                             width={100}
                                             height={100}
-                                            src={xxx.img[currentImageKey]?.trim() || img}
+                                            src={xxx.img[currentImageKey]?.trim() ? xxx.img[currentImageKey]?.trim() : img}
                                             alt={xxx.desc}
                                             quality={1}
                                         />
