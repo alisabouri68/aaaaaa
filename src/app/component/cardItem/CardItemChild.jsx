@@ -49,7 +49,7 @@ function CardItemChild({ filteredProducts, imageKeys, handleImageChange }) {
                                         </div>
                                     </div>
                                 </Link>
-                                <div className="flex w-full items-center justify-center gap-2  absolute top-[38%] left-[50%]" style={{ transform: 'translate(-50% , -50%' }}>
+                                <div className="flex w-full items-center justify-center gap-2  absolute top-[50%] left-[50%]" style={{ transform: 'translate(-50% , -50%' }}>
                                     {xxx.img &&
                                         xxx.img.map((_, i) => (
                                             <span
