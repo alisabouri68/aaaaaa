@@ -46,11 +46,11 @@ function Category({ id }) {
         }
     };
     return (
-        <section className="mt-3 mx-3">
+        <section className="my-3 mx-4">
             <Container>
-                <div className="flex flex-col w-full overflow-hidden bg-gray-200 p-4 dark:bg-gray-600 rounded-2xl relative">
+                <div className="flex flex-col w-full overflow-hidden bg-gray-200 p-4 dark:bg-gray-600 rounded-lg relative">
                     <div>
-                        <h6 className="text-2xl font-semibold">دسته بندی ها</h6>
+                        <h6 className="text-lg font-semibold">دسته بندی ها</h6>
                     </div>
                     <div
                         className="flex overflow-hidden *:shrink-0 cursor-grab select-none"
@@ -67,7 +67,7 @@ function Category({ id }) {
                                         <div
                                             className="p-3 flex"
                                             key={i}
-                                            style={{minWidth:size/10 + "px"}}
+                                            style={{minWidth:size/6 + "px"}}
                                         >
                                             <div className="w-full rounded-lg gap-1 grid overflow-hidden bg-gray-200 dark:bg-gray-600 shadow shadow-gray-500 dark:shadow-gray-400 p-2">
                                                 <img
