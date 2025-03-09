@@ -3,81 +3,44 @@ export const dbmegamenu = [
   {
     menu: ["لوازم اداری", "Office-supplies"],
     submenu: [
-      ["گیره و کلیپس", "Clamps-and-clips"],
-      ["پایه چسب", "adhesive-base"],
-      ["کاغذ یادداشت", "sticky-note"],
-      ["زونکن", "Zonken"],
-      ["کاور پلاستیکی کاغذ", "Paper-plastic-cover"],
-      ["لوازم روی میز اداری", "Office-desk-supplies"],
-      ["کاغذ تذهیب و ابر و باد", "Illuminated-paper-clouds-and-wind"],
-      ["کازیه رومیزی", "Desktop-casket"],
-      ["زیرپایی اداری", "Office-footrest"],
-      ["غش گیر و کتابیار", "Fainting-and-bookworm"],
-      ["دستگاه پانچ کاغذ", "Paper-punching-machine"],
-      ["استامپ و جوهر استامپ", "Stamp-and-stamp-ink"],
-      ["پوشه و پاکت", "Folders-and-envelopes"],
-      ["دیوایدر", "Divider"],
-      ["انواع کاغذ و مقوا", "Types-o-paper-and-cardboard"],
-      ["کلربوک | کلیربوک", "Clearbook-Clearbook"],
-      ["تخته پاک کن", "Eraser-board"],
-      ["فایل رومیزی اداری", "Office-desktop-file"],
-      ["پایه کیس و زیر مانیتوری", "Case-stand-and-monitor-stand"],
-      ["کاغذ کالک", "Tracing-paper"],
-      ["دستگاه منگنه", "Stapler"],
-      ["آلبوم کارت ویزیت", "Business-card-album"],
-      ["تخته وایت برد", "Whiteboard"],
-      ["طلق و شیرازه", "Talq-and-Shiraz"],
-      ["ماشین حساب", "Calculator"],
-      ["تقویم و سررسید", "Calendar-and-deadlines"],
-      ["تابلو اعلانات", "Bulletin-board"],
-      ["جا مجله ای و جاکتابی رومیزی", "Desktop-magazine-rack-and-bookcase"],
-      ["ست رومیزی مدیریتی", "Management-desk-set"],
-      ["سوزن منگنه", "Stapler-needle"],
-      ["برچسب، لیبل و اتیکت", "Tags-labels-and-etiquette"],
-      ["چسب", "Glue"],
-      ["باتری", "Battery"],
-      ["دفاتر حسابداری", "Accounting-offices"],
-      ["فاکتور فروش", "Sales-invoice"],
-      ["دستگاه مهر", "Sealing-machine"],
-      ["میز و صندلی", "Table-and-chairs"],
-      ["تخته گچی", "Plasterboard"],
-      ["سطل زباله اداری", "Office-trash-can"],
-      ["کره جغرافیایی", "Geographical-sphere"],
-      ["منگنه کش", "Stapler"],
-      ["فنر صحافی مارپیچ و دوبل", "Spiral-and-double-binding-springs"],
-      ["کش پول", "Cash-register"],
-      ["دستگاه پرس کارت و لمینت", "Card-press-and-laminating-machine"],
-      ["طلق پرس کارت و لمینت", "Card-press-and-laminate"],
-      ["طلق کارت، استند رومیزی", "Talc-card-desktop-stand"],
-    ],
-  },
-  {
-    menu: ["نوشت افزار", "Stationery"],
-    submenu: [
-      ["خودکار", "pencile"],
-      ["قلم های نفیس", "Exquisite-pens"],
-      ["روان نویس", "Writer"],
-      ["انواع ست کادویی", "Types-of-gift-sets"],
-      ["ماژیک وایت برد", "Whiteboard marker"],
-      ["ماژیک مارکر", "Marker pen"],
-      ["ماژیک سی دی", "CD-marker"],
-      ["گچ تخته", "Drywall"],
+      ["گیره و کلیپس", "Clamps-and-clips","https://beraito.com/wp-content/uploads/2021/02/20210221_115031-150x150.jpg"],
+      ["پایه چسب", "adhesive-base","https://beraito.com/wp-content/uploads/2020/05/5200-150x150.jpg"],
+      ["کاغذ یادداشت", "sticky-note","https://beraito.com/wp-content/uploads/2020/06/yeetihdPCW253412-150x150.jpg"],
+      ["زونکن", "Zonken","https://beraito.com/wp-content/uploads/2022/02/20220217_12255-150x150.jpg"],
+      ["لوازم روی میز اداری", "Office-desk-supplies","https://beraito.com/wp-content/uploads/2021/11/10-%D8%AA%DA%A9%D9%87-1-150x150.jpg"],
+      ["کاغذ تذهیب و ابر و باد", "Illuminated-paper-clouds-and-wind","https://beraito.com/wp-content/uploads/2020/06/SyFLBzrw9n-150x150.jpg"],
+      ["کازیه رومیزی", "Desktop-casket","https://beraito.com/wp-content/uploads/2021/11/IMG-20211004-WA0037-150x150.jpg"],
+      ["زیرپایی اداری", "Office-footrest","https://beraito.com/wp-content/uploads/2020/06/924332-150x150.jpg"],
+      ["دستگاه پانچ کاغذ", "Paper-punching-machine","https://beraito.com/wp-content/uploads/2021/07/87-1-150x150.jpg"],
+      ["استامپ و جوهر استامپ", "Stamp-and-stamp-ink","https://beraito.com/wp-content/uploads/2020/05/tDQSI7saof253412-150x150.jpg"],
+      ["پوشه و پاکت", "Folders-and-envelopes","https://beraito.com/wp-content/uploads/2021/12/%D8%AA%DA%A9%DB%8C-1-150x150.jpg"],
+      ["دیوایدر", "Divider","https://beraito.com/wp-content/uploads/2021/07/105-1-150x150.jpg"],
+      ["کلربوک | کلیربوک", "Clearbook-Clearbook","https://beraito.com/wp-content/uploads/2021/09/100s-150x150.jpg"],
+      ["تخته پاک کن", "Eraser-board","https://beraito.com/wp-content/uploads/2020/07/MTccioXSIZ253422-150x150.jpg"],
+      ["فایل رومیزی اداری", "Office-desktop-file","https://beraito.com/wp-content/uploads/2020/06/pjHcPAUp6L-1-150x150.jpg"],
+      ["پایه کیس و زیر مانیتوری", "Case-stand-and-monitor-stand","https://beraito.com/wp-content/uploads/2020/06/783025-150x150.jpg"],
+      ["دستگاه منگنه", "Stapler","https://beraito.com/wp-content/uploads/2021/11/1708020-150x150.jpg"],
+      ["تخته وایت برد", "Whiteboard","https://beraito.com/wp-content/uploads/2020/06/213055-150x150.jpg.webp"],
+      ["طلق و شیرازه", "Talq-and-Shiraz","https://beraito.com/wp-content/uploads/2021/09/gh12-150x150.jpg"],
+      ["ماشین حساب", "Calculator","https://beraito.com/wp-content/uploads/2021/08/63-150x150.jpg"],
+      ["تقویم و سررسید", "Calendar-and-deadlines","https://beraito.com/wp-content/uploads/2021/12/%D8%AC%D9%85%D8%B9%D9%87-%D8%AC%D8%AF%D8%A7-150x150.jpg"],
+      ["تابلو اعلانات", "Bulletin-board","https://beraito.com/wp-content/uploads/2020/06/121134-150x150.jpg.webp"],
+      ["جا مجله ای و جاکتابی رومیزی", "Desktop-magazine-rack-and-bookcase","https://beraito.com/wp-content/uploads/2020/05/520845-150x150.jpg.webp"],
+      ["ست رومیزی مدیریتی", "Management-desk-set","https://beraito.com/wp-content/uploads/2022/02/%D9%88%D8%A7%D9%81%D8%B14-%D8%AA%DA%A9%D9%87-150x150.jpg"],
+      ["سوزن منگنه", "Stapler-needle","https://beraito.com/wp-content/uploads/2020/06/225758-150x150.jpg.webp"],
+      ["برچسب، لیبل و اتیکت", "Tags-labels-and-etiquette","https://beraito.com/wp-content/uploads/2021/11/1-%C3%97-1.9-150x150.jpg"],
+      ["چسب", "Glue","https://beraito.com/wp-content/uploads/2021/08/157-150x150.jpg"],
+      ["دفاتر حسابداری", "Accounting-offices","https://beraito.com/wp-content/uploads/2021/07/45-1-150x150.jpg"],
+      ["دستگاه مهر", "Sealing-machine","https://beraito.com/wp-content/uploads/2021/10/59874521-150x150.jpg"],
+      ["میز و صندلی", "Table-and-chairs","https://beraito.com/wp-content/uploads/2021/11/IMG_20211012_160303_749-150x150.jpg"]
     ],
   },
   {
     menu: ["لوازم هنری و تحریر", "Art-and-writing-supplies"],
     submenu: [
-      ["مداد رنگی", ""],
+      ["مداد رنگی", "colored-pencil"],
       ["گواش", ""],
-      ["چراغ مطالعه", ""],
       ["گونیا و نقاله", ""],
-      ["لاک غلط گیر", ""],
-      ["نوک مداد نوکی", ""],
-      ["ابزار نقاشی و رنگ آمیزی", ""],
-      ["ذره بین", ""],
-      ["خمیربازی", ""],
-      ["آبرنگ", ""],
-      ["ست نقاشی", ""],
       ["پرگار", ""],
       ["کاتر و تیغ کاتر", ""],
       ["مداد", ""],
@@ -92,40 +55,28 @@ export const dbmegamenu = [
       ["جامدادی رومیزی", ""],
       ["تراش", ""],
       ["دفتر یادداشت", ""],
-      ["ماژیک رنگ آمیزی", ""],
       ["کوله پشتی و کیف", ""],
       ["خط کش", ""],
-      ["ماژیک علامت گذار", ""],
       ["مداد نوکی", ""],
-      ["رنگ انگشتی", ""],
-      ["ملزومات و جوایز دانش آموزی", ""],
       ["دفتر، دفتر کلاسوری و اوراق", ""],
       ["قیچی", ""],
-      ["کاغذ کادو و ملزومات هدی", ""],
-      ["برچسب فانتزی و آموزشی", ""],
-      ["قلم مو", ""],
-      ["بوم نقاشی و پایه بوم", ""],
       ["دفتر خاطرات", ""],
-      ["جلد کتاب درسی", ""],
       ["لوازم خوشنویسی", ""],
-      ["کتاب، پوستر و فلش کارت", ""],
+      ["خودکار", "pencile"],
+      ["روان نویس", "Writer"],
+      ["ماژیک", "Whiteboard marker"],
     ],
   },
   {
     menu: ["لوازم جانبی کامپیوتر", "Computer-accessories"],
     submenu: [
-      ["ماوس و کیبورد", ""],
+      ["ماوس و کیبورد", "mouse-keyboard"],
       ["لوح فشرده", ""],
       ["کاور CD و DVD", ""],
       ["کابل رابط و مبدل", ""],
       ["تجهیزات ذخیره سازی اطلاعات", ""],
-    ],
-  },
-  {
-    menu: ["ماشین های اداری", "Office-machines"],
-    submenu: [
       ["کارتریج", ""],
-      ["پرینتر", ""],
+      ["پرینتر", ""]
     ],
   },
   {
@@ -138,6 +89,7 @@ export const dbmegamenu = [
       ["تفنگ، تیر و لوازم بازی جنگی", ""],
       ["عروسک، فیگور و کوکی", ""],
       ["ماشین، قطار و هواپیما", ""],
+      ["خمیربازی", ""]
     ],
   },
   {
@@ -162,14 +114,6 @@ export const dbmegamenu = [
       ["نخ و دوک", ""],
       ["نوار اریب", ""],
       ["وسایل اندازه گیری", ""],
-    ],
-  },
-  {
-    menu: [
-      "لوازم خرازی، هنری و تزئینی",
-      "Craft-artistic-and-decorative-supplies",
-    ],
-    submenu: [
       ["کوبلن، گلدوزی و ترمه", "koblen-embroidery-and-cashmere"],
       ["لوازم بافتنی", ""],
       ["لوازم تزیین پارچه", ""],
@@ -178,7 +122,7 @@ export const dbmegamenu = [
       ["نمد و کاموا", ""],
       ["هویه، اتیکت زن و تفنگ حرارتی", ""],
     ],
-  },
+  }
 ]
 
 
@@ -4065,6 +4009,1449 @@ export const allproducts = [
 
     ]
   },
+  {
+    products: "colored-pencil",
+    productsitems: [
+      {
+        id: 185,
+        desc: "مداد رنگی 24 رنگ جعبه فلزی اسکول مکس",
+        price: 320000,
+        title: 'مداد رنگی',
+        brand: 'School Max',
+        country: 'چین',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/09/schoolmax.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/schoomax-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/schoomax-3.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 186,
+        desc: "مداد رنگی 48 رنگ فابر کاستل جعبه مقوایی مدل کلاسیک",
+        price: 152800,
+        title: 'مداد رنگی',
+        brand: 'FABER-CASTELL',
+        country: 'المان',
+        color: ['48رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/08/48faber.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/08/48faber2.jpg.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 187,
+        desc: "مداد رنگی 24 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 75000,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['24 رنگ'],
+        discount: 7,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/24-1.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/24-2.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 188,
+        desc: "مداد رنگی 12 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 35500,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['12 رنگ'],
+        discount: 9,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/12-12.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/12-3-2.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/12-1-6.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 189,
+        desc: "مداد رنگی 6 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 18000,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['6 رنگ'],
+        discount: 6,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/6-17.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/6-1-3.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 190,
+        desc: "مداد رنگی 36 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 445000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['36 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/205.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 191,
+        desc: "مداد رنگی 24 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 300000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/204.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 192,
+        desc: "مداد رنگی 12 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 168000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['12 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/203.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 193,
+        desc: "مداد رنگی 12 رنگ البرز جعبه مقوایی مدل WOODLESS",
+        price: 40000,
+        title: 'مداد رنگی',
+        brand: 'البرز',
+        country: 'ایران',
+        color: ['12 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/12.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-3.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-2.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-4.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 194,
+        desc: "مداد رنگی 6 رنگ البرز جعبه مقوایی مدل WOODLESS",
+        price: 25000,
+        title: 'مداد رنگی',
+        brand: 'البرز',
+        country: 'ایران',
+        color: ['6 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/11.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/11-1.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 195,
+        desc: "مداد رنگی پیکاسو 24 رنگ جعبه مقوایی",
+        price: 290000,
+        title: 'مداد رنگی',
+        brand: 'Picasso',
+        country: 'چین',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2020/09/46.jpg.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 196,
+        desc: "مداد رنگی 24 رنگ جعبه فلزی اسکول مکس",
+        price: 320000,
+        title: 'مداد رنگی',
+        brand: 'School Max',
+        country: 'چین',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/09/schoolmax.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/schoomax-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/schoomax-3.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 197,
+        desc: "مداد رنگی 48 رنگ فابر کاستل جعبه مقوایی مدل کلاسیک",
+        price: 152800,
+        title: 'مداد رنگی',
+        brand: 'FABER-CASTELL',
+        country: 'المان',
+        color: ['48رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/08/48faber.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/08/48faber2.jpg.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 198,
+        desc: "مداد رنگی 24 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 75000,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['24 رنگ'],
+        discount: 7,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/24-1.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/24-2.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 199,
+        desc: "مداد رنگی 12 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 35500,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['12 رنگ'],
+        discount: 9,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/12-12.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/12-3-2.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/12-1-6.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 200,
+        desc: "مداد رنگی 6 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 18000,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['6 رنگ'],
+        discount: 6,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/6-17.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/6-1-3.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 201,
+        desc: "مداد رنگی 36 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 445000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['36 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/205.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 202,
+        desc: "مداد رنگی 24 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 300000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/204.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 203,
+        desc: "مداد رنگی 12 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 168000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['12 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/203.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 204,
+        desc: "مداد رنگی 12 رنگ البرز جعبه مقوایی مدل WOODLESS",
+        price: 40000,
+        title: 'مداد رنگی',
+        brand: 'البرز',
+        country: 'ایران',
+        color: ['12 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/12.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-3.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-2.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-4.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 205,
+        desc: "مداد رنگی 6 رنگ البرز جعبه مقوایی مدل WOODLESS",
+        price: 25000,
+        title: 'مداد رنگی',
+        brand: 'البرز',
+        country: 'ایران',
+        color: ['6 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/11.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/11-1.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 206,
+        desc: "مداد رنگی پیکاسو 24 رنگ جعبه مقوایی",
+        price: 290000,
+        title: 'مداد رنگی',
+        brand: 'Picasso',
+        country: 'چین',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2020/09/46.jpg.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 207,
+        desc: "مداد رنگی 24 رنگ جعبه فلزی اسکول مکس",
+        price: 320000,
+        title: 'مداد رنگی',
+        brand: 'School Max',
+        country: 'چین',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/09/schoolmax.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/schoomax-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/schoomax-3.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 208,
+        desc: "مداد رنگی 48 رنگ فابر کاستل جعبه مقوایی مدل کلاسیک",
+        price: 152800,
+        title: 'مداد رنگی',
+        brand: 'FABER-CASTELL',
+        country: 'المان',
+        color: ['48رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/08/48faber.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/08/48faber2.jpg.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 209,
+        desc: "مداد رنگی 24 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 75000,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['24 رنگ'],
+        discount: 7,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/24-1.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/24-2.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 210,
+        desc: "مداد رنگی 12 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 35500,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['12 رنگ'],
+        discount: 9,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/12-12.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/12-3-2.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/12-1-6.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 211,
+        desc: "مداد رنگی 6 رنگ آدمیرال جعبه مقوایی مدل MDF",
+        price: 18000,
+        title: 'مداد رنگی',
+        brand: 'Admiral',
+        country: 'ایران',
+        color: ['6 رنگ'],
+        discount: 6,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/09/6-17.jpg',
+          'https://beraito.com/wp-content/uploads/2021/09/6-1-3.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 212,
+        desc: "مداد رنگی 36 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 445000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['36 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/205.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 213,
+        desc: "مداد رنگی 24 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 300000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/204.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 214,
+        desc: "مداد رنگی 12 رنگ استدلر جعبه مقوایی مدل Soft",
+        price: 168000,
+        title: 'مداد رنگی',
+        brand: 'STAEDTLER',
+        country: 'المان',
+        color: ['12 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/203.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 215,
+        desc: "مداد رنگی 12 رنگ البرز جعبه مقوایی مدل WOODLESS",
+        price: 40000,
+        title: 'مداد رنگی',
+        brand: 'البرز',
+        country: 'ایران',
+        color: ['12 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/12.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-3.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-2.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/12-4.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 216,
+        desc: "مداد رنگی 6 رنگ البرز جعبه مقوایی مدل WOODLESS",
+        price: 25000,
+        title: 'مداد رنگی',
+        brand: 'البرز',
+        country: 'ایران',
+        color: ['6 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/08/11.jpg',
+          'https://beraito.com/wp-content/uploads/2021/08/11-1.jpg'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+      {
+        id: 217,
+        desc: "مداد رنگی پیکاسو 24 رنگ جعبه مقوایی",
+        price: 290000,
+        title: 'مداد رنگی',
+        brand: 'Picasso',
+        country: 'چین',
+        color: ['24 رنگ'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2020/09/46.jpg.webp'
+        ],
+        feature: [
+          'نوع:مداد رنگی 24 رنگ',
+          'نوع بسته بندی:مقوایی',
+          'طول مداد:17.5 سانتی متر',
+          'سطح مقطع:شش ضلعی',
+          'قطر سطح مقطع:7 میلی متر',
+          'درجه سختی نوک:HB',
+          'مناسب برای:رنگ آمیزی دانش آموزان'
+        ]
+      },
+
+    ]
+  },
+  {
+    products: "mouse-keyboard",
+    productsitems: [
+
+      {
+        id: 218,
+        desc: "کیبورد باسیم بیاند فراسو مدل Beyond BK-3340",
+        price: 660000,
+        title: 'کیبورد ',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/3340-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/3340.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/3340-2.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'طول کابل:1.5 متر',
+          'تعداد کلید:104 کلید',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 219,
+        desc: "ماوس باسیم بیاند فراسو مدل Beyond",
+        price: 310000,
+        title: 'ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/07/bm-1170.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175-1.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175-2.jpg.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'متراژ سیم:1.5 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios',
+          'ویژگی:قابلیت کار کردن با هر دو دست'
+
+        ]
+      },
+      {
+        id: 220,
+        desc: "برچسب کیبورد شفاف حروف و علائم استاندارد فارسی چاپ مشکی",
+        price: 12000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135258.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد طرح چرم',
+          'رنگ زمینه:مشکی',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 221,
+        desc: "پد ماوس ساده لاجیتک Logitech سایز متوسط",
+        price: 47000,
+        title: 'پد ماوس',
+        brand: 'متفرقه',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/02/85.jpg',
+          'https://beraito.com/wp-content/uploads/2021/02/85-1.jpg'
+        ],
+        feature: [
+          'وع:پد ماوس معمولی',
+          'ضد آب و قابل شستشو:خیر',
+          'قسمت استراحتگاه مچ:ندارد'
+
+
+        ]
+      },
+      {
+        id: 222,
+        desc: "برچسب کیبورد حروف و علائم استاندارد فارسی طرح چرم",
+        price: 15000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'ایران',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135916.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135143.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135147.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد طرح چرم',
+          'رنگ زمینه:مشکی',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 223,
+        desc: "ماوس باسیم بیاند فراسو مدل Beyond BM-1120",
+        price: 310000,
+        title: 'ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/1120.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/1120-1.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'متراژ سیم:1.5 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios',
+          'ویژگی:قابلیت کار کردن با هر دو دست'
+
+        ]
+      },
+      {
+        id: 224,
+        desc: "کیبورد و ماوس باسیم بیاند فراسو مدل Beyond BMK-4110",
+        price: 816000,
+        title: 'کیبورد و ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/4110.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/4110-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/4110-2.webp'
+        ],
+        feature: ['ابعاد کیبورد:42 × 14.8 × 2.8 سانتی متر',
+          'ابعاد ماوس:10.3 × 6 × 3.5 سانتی متر',
+          'نوع اتصال:سیم دار',
+          'تعداد کلید کیبورد:104 عدد',
+          'دقت ماوس:1000 dpi',
+          'طول کابل:1.3 متر',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 225,
+        desc: "کیبورد و ماوس بی سیم بیاند فراسو مدل Beyond BMK-8101RF",
+        price: 908000,
+        title: 'کیبورد و ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/8101.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/8101-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/8101-2.webp'
+        ],
+        feature: [
+          'ابعاد کیبورد:45.3 × 14.4 × 3.6 سانتی متر',
+          'ابعاد ماوس:10.9 × 6.4 × 3.7 سانتی متر',
+          'نوع اتصال:USB, بی سیم',
+          'تعداد کلید کیبورد:104 عدد',
+          'تعداد کلید ماوس:4 عدد',
+          'دقت ماوس:1600 dpi',
+          'نوع حسگر ماوس:اپتیکال'
+        ]
+      },
+      {
+        id: 226,
+        desc: "ماوس باسیم تسکو مدل TSCO TM 212",
+        price: 320000,
+        title: 'ماوس',
+        brand: 'TSCO',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/04/tm212.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-3.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-1.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-2.jpg'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'تعداد کلید:4 عدد',
+          'متراژ سیم:1.8 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 227,
+        desc: "برچسب کیبورد شفاف حروف و علائم استاندارد فارسی چاپ سفید",
+        price: 12000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'ایران',
+        color: ['سفید'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/%D8%B4%D9%81%D8%A7%D9%81.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/%D8%B4%D9%81%D8%A7%D9%81-2.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد شفاف با چاپ سفید',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 228,
+        desc: "کیبورد باسیم بیاند فراسو مدل Beyond BK-3340",
+        price: 660000,
+        title: 'کیبورد ',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/3340-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/3340.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/3340-2.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'طول کابل:1.5 متر',
+          'تعداد کلید:104 کلید',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 229,
+        desc: "ماوس باسیم بیاند فراسو مدل Beyond",
+        price: 310000,
+        title: 'ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/07/bm-1170.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175-1.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175-2.jpg.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'متراژ سیم:1.5 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios',
+          'ویژگی:قابلیت کار کردن با هر دو دست'
+
+        ]
+      },
+      {
+        id: 230,
+        desc: "برچسب کیبورد شفاف حروف و علائم استاندارد فارسی چاپ مشکی",
+        price: 12000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135258.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد طرح چرم',
+          'رنگ زمینه:مشکی',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 231,
+        desc: "پد ماوس ساده لاجیتک Logitech سایز متوسط",
+        price: 47000,
+        title: 'پد ماوس',
+        brand: 'متفرقه',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/02/85.jpg',
+          'https://beraito.com/wp-content/uploads/2021/02/85-1.jpg'
+        ],
+        feature: [
+          'وع:پد ماوس معمولی',
+          'ضد آب و قابل شستشو:خیر',
+          'قسمت استراحتگاه مچ:ندارد'
+
+
+        ]
+      },
+      {
+        id: 232,
+        desc: "برچسب کیبورد حروف و علائم استاندارد فارسی طرح چرم",
+        price: 15000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'ایران',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135916.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135143.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135147.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد طرح چرم',
+          'رنگ زمینه:مشکی',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 233,
+        desc: "ماوس باسیم بیاند فراسو مدل Beyond BM-1120",
+        price: 310000,
+        title: 'ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/1120.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/1120-1.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'متراژ سیم:1.5 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios',
+          'ویژگی:قابلیت کار کردن با هر دو دست'
+
+        ]
+      },
+      {
+        id: 234,
+        desc: "کیبورد و ماوس باسیم بیاند فراسو مدل Beyond BMK-4110",
+        price: 816000,
+        title: 'کیبورد و ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/4110.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/4110-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/4110-2.webp'
+        ],
+        feature: ['ابعاد کیبورد:42 × 14.8 × 2.8 سانتی متر',
+          'ابعاد ماوس:10.3 × 6 × 3.5 سانتی متر',
+          'نوع اتصال:سیم دار',
+          'تعداد کلید کیبورد:104 عدد',
+          'دقت ماوس:1000 dpi',
+          'طول کابل:1.3 متر',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 235,
+        desc: "کیبورد و ماوس بی سیم بیاند فراسو مدل Beyond BMK-8101RF",
+        price: 908000,
+        title: 'کیبورد و ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/8101.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/8101-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/8101-2.webp'
+        ],
+        feature: [
+          'ابعاد کیبورد:45.3 × 14.4 × 3.6 سانتی متر',
+          'ابعاد ماوس:10.9 × 6.4 × 3.7 سانتی متر',
+          'نوع اتصال:USB, بی سیم',
+          'تعداد کلید کیبورد:104 عدد',
+          'تعداد کلید ماوس:4 عدد',
+          'دقت ماوس:1600 dpi',
+          'نوع حسگر ماوس:اپتیکال'
+        ]
+      },
+      {
+        id: 236,
+        desc: "ماوس باسیم تسکو مدل TSCO TM 212",
+        price: 320000,
+        title: 'ماوس',
+        brand: 'TSCO',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/04/tm212.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-3.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-1.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-2.jpg'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'تعداد کلید:4 عدد',
+          'متراژ سیم:1.8 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 237,
+        desc: "برچسب کیبورد شفاف حروف و علائم استاندارد فارسی چاپ سفید",
+        price: 12000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'ایران',
+        color: ['سفید'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/%D8%B4%D9%81%D8%A7%D9%81.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/%D8%B4%D9%81%D8%A7%D9%81-2.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد شفاف با چاپ سفید',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 238,
+        desc: "کیبورد باسیم بیاند فراسو مدل Beyond BK-3340",
+        price: 660000,
+        title: 'کیبورد ',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/3340-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/3340.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/3340-2.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'طول کابل:1.5 متر',
+          'تعداد کلید:104 کلید',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 239,
+        desc: "ماوس باسیم بیاند فراسو مدل Beyond",
+        price: 310000,
+        title: 'ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/07/bm-1170.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175-1.jpg.webp',
+          'https://beraito.com/wp-content/uploads/2023/07/1175-2.jpg.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'متراژ سیم:1.5 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios',
+          'ویژگی:قابلیت کار کردن با هر دو دست'
+
+        ]
+      },
+      {
+        id: 240,
+        desc: "برچسب کیبورد شفاف حروف و علائم استاندارد فارسی چاپ مشکی",
+        price: 12000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135258.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد طرح چرم',
+          'رنگ زمینه:مشکی',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 241,
+        desc: "پد ماوس ساده لاجیتک Logitech سایز متوسط",
+        price: 47000,
+        title: 'پد ماوس',
+        brand: 'متفرقه',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2021/02/85.jpg',
+          'https://beraito.com/wp-content/uploads/2021/02/85-1.jpg'
+        ],
+        feature: [
+          'وع:پد ماوس معمولی',
+          'ضد آب و قابل شستشو:خیر',
+          'قسمت استراحتگاه مچ:ندارد'
+
+
+        ]
+      },
+      {
+        id: 242,
+        desc: "برچسب کیبورد حروف و علائم استاندارد فارسی طرح چرم",
+        price: 15000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'ایران',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135916.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135143.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/20211226_135147.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد طرح چرم',
+          'رنگ زمینه:مشکی',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+      {
+        id: 243,
+        desc: "ماوس باسیم بیاند فراسو مدل Beyond BM-1120",
+        price: 310000,
+        title: 'ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/1120.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/1120-1.webp'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'متراژ سیم:1.5 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios',
+          'ویژگی:قابلیت کار کردن با هر دو دست'
+
+        ]
+      },
+      {
+        id: 244,
+        desc: "کیبورد و ماوس باسیم بیاند فراسو مدل Beyond BMK-4110",
+        price: 816000,
+        title: 'کیبورد و ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/4110.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/4110-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/4110-2.webp'
+        ],
+        feature: ['ابعاد کیبورد:42 × 14.8 × 2.8 سانتی متر',
+          'ابعاد ماوس:10.3 × 6 × 3.5 سانتی متر',
+          'نوع اتصال:سیم دار',
+          'تعداد کلید کیبورد:104 عدد',
+          'دقت ماوس:1000 dpi',
+          'طول کابل:1.3 متر',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 245,
+        desc: "کیبورد و ماوس بی سیم بیاند فراسو مدل Beyond BMK-8101RF",
+        price: 908000,
+        title: 'کیبورد و ماوس',
+        brand: 'Beyond',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/06/8101.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/8101-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/06/8101-2.webp'
+        ],
+        feature: [
+          'ابعاد کیبورد:45.3 × 14.4 × 3.6 سانتی متر',
+          'ابعاد ماوس:10.9 × 6.4 × 3.7 سانتی متر',
+          'نوع اتصال:USB, بی سیم',
+          'تعداد کلید کیبورد:104 عدد',
+          'تعداد کلید ماوس:4 عدد',
+          'دقت ماوس:1600 dpi',
+          'نوع حسگر ماوس:اپتیکال'
+        ]
+      },
+      {
+        id: 246,
+        desc: "ماوس باسیم تسکو مدل TSCO TM 212",
+        price: 320000,
+        title: 'ماوس',
+        brand: 'TSCO',
+        country: 'چین',
+        color: ['مشکی'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2023/04/tm212.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-3.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-1.jpg',
+          'https://beraito.com/wp-content/uploads/2023/04/tm212-2.jpg'
+        ],
+        feature: [
+          'نوع اتصال:کابل',
+          'نوع رابط:USB',
+          'دقت:1000 dpi',
+          'تعداد کلید:4 عدد',
+          'متراژ سیم:1.8 متر',
+          'نوع حسگر:اپتیکال',
+          'سازگار با:سیستم عامل مایکروسافت ویندوز، اندروید، ios'
+        ]
+      },
+      {
+        id: 247,
+        desc: "برچسب کیبورد شفاف حروف و علائم استاندارد فارسی چاپ سفید",
+        price: 12000,
+        title: 'برچسب کیبورد',
+        brand: 'متفرقه',
+        country: 'ایران',
+        color: ['سفید'],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2022/01/%D8%B4%D9%81%D8%A7%D9%81.jpg',
+          'https://beraito.com/wp-content/uploads/2022/01/%D8%B4%D9%81%D8%A7%D9%81-2.jpg'
+        ],
+        feature: [
+          'نوع:لیبل کیبورد شفاف با چاپ سفید',
+          'رنگ چاپ:سفید',
+          'ویژگی ها:سازگار با انواع کیبورد'
+        ]
+      },
+    ]
+  }
 ]
 
 
@@ -4130,8 +5517,8 @@ export const allproducts = [
 
 
 
-//  {
-//    products: "Adhesive-base",
+// {
+//   products: "Adhesive-base",
 //    productsitems: [
 //      {
 //        id: 33,

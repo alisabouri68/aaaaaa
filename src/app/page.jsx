@@ -7,7 +7,7 @@ function page() {
   const color = [
     ['text-red-400','bg-red-400'],
     ['text-sky-400','bg-sky-400'],
-    ['text-amber-400','bg-amber-400'],
+    ['text-amber-400','bg-amber-500'],
     ['text-green-400','bg-green-400'],
     ['text-pink-400','bg-pink-400'],
     ['text-yellow-400','bg-yellow-400'],

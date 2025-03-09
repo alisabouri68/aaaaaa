@@ -14,7 +14,7 @@ function Nav({ children }) {
             </span>
           </div>
           <div className="invisible duration-300 absolute top-84px opacity-0 -right-5 group-hover/menu:visible group-hover/menu:right-0 group-hover/menu:opacity-100">
-            <ul className="border border-amber-500 rounded-r-2xl bg-background" style={{width:(size/5) + "px"}}>{children}</ul>
+            <ul className="border border-gray-700 dark:border-gray-200 rounded-r-2xl bg-background" style={{width:(size/5) + "px"}}>{children}</ul>
           </div>
         </li>
       </ul>

@@ -27,7 +27,7 @@ function Breadcrumb() {
   return (
     <div className="h-12  mt-5 ">
       <Container>
-        <div className="w-full h-full overflow-hidden flex bg-amber-400 breadcrumb-parent">
+        <div className="w-full h-full overflow-hidden flex bg-amber-500 breadcrumb-parent">
           <div className="breadcrumb-home flex items-center justify-center">
             خانه
           </div>

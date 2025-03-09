@@ -41,7 +41,7 @@ function Footer() {
                     </ul>
                 </Container>
             </div>
-            <div className='bg-amber-400 p-2 text-gray-600'>
+            <div className='bg-amber-500 p-2 text-gray-600'>
                 <Container>
                     <div className=''>
                         <ul className='flex flex-wrap '>

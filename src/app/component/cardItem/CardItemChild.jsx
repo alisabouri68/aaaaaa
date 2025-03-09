@@ -9,7 +9,7 @@ function CardItemChild({ filteredProducts }) {
                 filteredProducts.map((xxx) => {
                   
                     return (
-                        <Card xxx={xxx}  key={xxx.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 hover:bg-gray-500'/>
+                        <Card xxx={xxx}  key={xxx.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 dark:hover:bg-gray-500'/>
                     );
                 })}
         </>

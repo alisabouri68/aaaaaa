@@ -22,7 +22,7 @@ function ProductSlider() {
 
     return (
         <div className=''>
-            <div className='relative shadow shadow-amber-500 rounded-lg'>
+            <div className='relative shadow dark:shadow-gray-200 shadow-gray-700 rounded-lg'>
                 <Image
                     className='w-full h-full object-cover rounded-lg'
                     src={  product.img[selectedImageIndex] || img }
@@ -41,7 +41,7 @@ function ProductSlider() {
                                 onClick={() => setSelectedImageIndex(index)}
                                 className={`shrink-0 p-1 rounded-lg transition-all  ${
                                     index === selectedImageIndex 
-                                        ? 'bg-amber-400 ' 
+                                        ? 'bg-amber-500 ' 
                                         : 'bg-gray-800 hover:bg-amber-600'
                                 }`}
                             >

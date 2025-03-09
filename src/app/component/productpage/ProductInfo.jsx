@@ -20,7 +20,7 @@ function ProductInfo() {
   const product = allproducts[indexImgSliderPruduct[0]].productsitems[indexImgSliderPruduct[1]]
   return (
     <div className='p-5'>
-      <div className='shadow shadow-amber-500 flex flex-col gap-5 w-full h-full p-5'>
+      <div className='shadow dark:shadow-gray-200 shadow-gray-700 flex flex-col gap-5 w-full h-full p-5'>
         <div>
           <div className='flex items-center border-b border-gray-400'>
             <div >
@@ -71,13 +71,13 @@ function ProductInfo() {
           <div className='flex items-center gap-5'>
             <div className='flex items-center gap-5'>
               <div>
-                <button className='px-3 py-2 ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow shadow-amber-500' onClick={increaseCounter}>
+                <button className='px-3 py-2 ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-700' onClick={increaseCounter}>
                   <FaPlus />
                 </button>
               </div>
               <div className='min-w-2.5 max-w-2.5'><span className='text-2xl'>{counter}</span></div>
               <div>
-                <button className='px-3 py-2 ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow shadow-amber-500' onClick={decreaseCounter}>
+                <button className='px-3 py-2 ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-700' onClick={decreaseCounter}>
                   <FaMinus />
                 </button>
               </div>

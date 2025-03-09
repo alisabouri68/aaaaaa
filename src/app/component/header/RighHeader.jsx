@@ -3,10 +3,8 @@ import React from "react";
 import Nav from "./Nav";
 import NavList from "./NavList";
 import { FaPenAlt, FaPenFancy, FaPen, FaMouse, FaPrint } from "react-icons/fa";
-import { BsCupHotFill } from "react-icons/bs";
 import { TbGoGame } from "react-icons/tb";
 import { GiSewingMachine } from "react-icons/gi";
-import { GiSewingNeedle } from "react-icons/gi";
 import Link from "next/link";
 import { useContainerSize } from "@/app/zustand/UseContainerSiza";
 import { dbmegamenu } from "./db";
@@ -32,13 +30,9 @@ function RighHeader({ children }) {
                   ) : index === 3 ? (
                     <FaMouse />
                   ) : index === 4 ? (
-                    <FaPrint />
-                  )  : index === 5 ? (
                     <TbGoGame />
-                  ) : index === 6 ? (
+                  ) : index === 5 ? (
                     <GiSewingMachine />
-                  ) : index === 7 ? (
-                    <GiSewingNeedle />
                   ) : (
                     ""
                   )
@@ -47,7 +41,7 @@ function RighHeader({ children }) {
                 <ul
                   className={`${
                     index === 0 ? "z-10" : ""
-                  } border border-amber-500 h-full duration-300 absolute top-0   flex flex-wrap opacity-100 *:w-[20%] p-3 group-hover/set:z-20 group-hover/set:opacity-100`}
+                  } border border-gray-700 dark:border-gray-200 h-full duration-300 absolute top-0   flex flex-wrap opacity-100 *:w-[20%] p-3 group-hover/set:z-20 group-hover/set:opacity-100`}
                   style={{
                     width: size - size / 5 + "px",
                     right: size / 5 + "px",

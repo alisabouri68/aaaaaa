@@ -18,7 +18,7 @@ function Card({ xxx, styles , darkstyle }) {
     return (
         <div className=" pl-5 pb-5 flex">
             <div className={`flex flex-col grow rounded-lg overflow-hidden ${darkstyle}  relative ${xxx.discount?'before':''} `}>
-                <Link href={`/products/${xxx.title.split(" ").filter(Boolean).join("-") + xxx.id}`} className="flex flex-col justify-evenly  duration-300 h-[85%]">
+                <Link href={`/products/${xxx.title.split(" ").filter(Boolean).join("-") + xxx.id}`} className="flex flex-col justify-evenly  duration-500 h-[85%]">
                     <div className='flex items-center justify-center'>
                         {xxx.img[currentImageKey]?.trim() ? (
                             <Image
@@ -57,7 +57,7 @@ function Card({ xxx, styles , darkstyle }) {
                 <div className={`${xxx.discount ?'text-white text-sm absolute top-2 left-0.5' : "hidden"} `}>
                         {xxx.discount ? xxx.discount + ' % ' : null}
                 </div>
-                <div className={`bg-amber-400 h-[15%] ${styles}`}>
+                <div className={`bg-amber-500 h-[15%] ${styles}`}>
                 <div className="flex w-full items-center justify-center gap-2 absolute top-[43%]">
                         {xxx.img &&
                             xxx.img.map((_, i) => (
@@ -66,7 +66,7 @@ function Card({ xxx, styles , darkstyle }) {
                                     onClick={() => handleImageChange(xxx.id, i)}
                                     className={`${currentImageKey === i
                                         ? "min-w-6 max-w-6 min-h-4 max-h-4 bg-amber-600"
-                                        : "min-w-3 max-w-3 min-h-3 max-h-3 bg-amber-400"
+                                        : "min-w-3 max-w-3 min-h-3 max-h-3 bg-amber-500"
                                         } rounded-full flex cursor-pointer duration-500`}
                                 ></span>
                             ))}</div>
