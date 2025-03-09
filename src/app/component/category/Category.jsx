@@ -46,7 +46,7 @@ function Category({ id }) {
         }
     };
     return (
-        <section className="mt-10">
+        <section className="mt-3 mx-3">
             <Container>
                 <div className="flex flex-col w-full overflow-hidden bg-gray-200 p-4 dark:bg-gray-600 rounded-2xl relative">
                     <div>
@@ -67,13 +67,13 @@ function Category({ id }) {
                                         <div
                                             className="p-3 flex"
                                             key={i}
-                                            style={{minWidth:size/6 + "px"}}
+                                            style={{minWidth:size/10 + "px"}}
                                         >
                                             <div className="w-full rounded-lg gap-1 grid overflow-hidden bg-gray-200 dark:bg-gray-600 shadow shadow-gray-500 dark:shadow-gray-400 p-2">
                                                 <img
                                                     src={val[2]}
                                                     alt={val[0]}
-                                                    className="object-cover rounded-lg w-full h-full"
+                                                    className="rounded-lg w-full h-full"
                                                     draggable="false"
                                                 />
                                                 <span>{val[0]}</span>
