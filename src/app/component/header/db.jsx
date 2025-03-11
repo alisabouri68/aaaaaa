@@ -3,36 +3,36 @@ export const dbmegamenu = [
   {
     menu: ["لوازم اداری", "Office-supplies"],
     submenu: [
-      ["گیره و کلیپس", "Clamps-and-clips","https://beraito.com/wp-content/uploads/2021/02/20210221_115031-150x150.jpg"],
-      ["پایه چسب", "adhesive-base","https://beraito.com/wp-content/uploads/2020/05/5200-150x150.jpg"],
-      ["کاغذ یادداشت", "sticky-note","https://beraito.com/wp-content/uploads/2020/06/yeetihdPCW253412-150x150.jpg"],
-      ["زونکن", "Zonken","https://beraito.com/wp-content/uploads/2022/02/20220217_12255-150x150.jpg"],
-      ["لوازم روی میز اداری", "Office-desk-supplies","https://beraito.com/wp-content/uploads/2021/11/10-%D8%AA%DA%A9%D9%87-1-150x150.jpg"],
-      ["کاغذ تذهیب و ابر و باد", "Illuminated-paper-clouds-and-wind","https://beraito.com/wp-content/uploads/2020/06/SyFLBzrw9n-150x150.jpg"],
-      ["کازیه رومیزی", "Desktop-casket","https://beraito.com/wp-content/uploads/2021/11/IMG-20211004-WA0037-150x150.jpg"],
-      ["زیرپایی اداری", "Office-footrest","https://beraito.com/wp-content/uploads/2020/06/924332-150x150.jpg"],
-      ["دستگاه پانچ کاغذ", "Paper-punching-machine","https://beraito.com/wp-content/uploads/2021/07/87-1-150x150.jpg"],
-      ["استامپ و جوهر استامپ", "Stamp-and-stamp-ink","https://beraito.com/wp-content/uploads/2020/05/tDQSI7saof253412-150x150.jpg"],
-      ["پوشه و پاکت", "Folders-and-envelopes","https://beraito.com/wp-content/uploads/2021/12/%D8%AA%DA%A9%DB%8C-1-150x150.jpg"],
-      ["دیوایدر", "Divider","https://beraito.com/wp-content/uploads/2021/07/105-1-150x150.jpg"],
-      ["کلربوک | کلیربوک", "Clearbook-Clearbook","https://beraito.com/wp-content/uploads/2021/09/100s-150x150.jpg"],
-      ["تخته پاک کن", "Eraser-board","https://beraito.com/wp-content/uploads/2020/07/MTccioXSIZ253422-150x150.jpg"],
-      ["فایل رومیزی اداری", "Office-desktop-file","https://beraito.com/wp-content/uploads/2020/06/pjHcPAUp6L-1-150x150.jpg"],
-      ["پایه کیس و زیر مانیتوری", "Case-stand-and-monitor-stand","https://beraito.com/wp-content/uploads/2020/06/783025-150x150.jpg"],
-      ["دستگاه منگنه", "Stapler","https://beraito.com/wp-content/uploads/2021/11/1708020-150x150.jpg"],
-      ["تخته وایت برد", "Whiteboard","https://beraito.com/wp-content/uploads/2020/06/213055-150x150.jpg.webp"],
-      ["طلق و شیرازه", "Talq-and-Shiraz","https://beraito.com/wp-content/uploads/2021/09/gh12-150x150.jpg"],
-      ["ماشین حساب", "Calculator","https://beraito.com/wp-content/uploads/2021/08/63-150x150.jpg"],
-      ["تقویم و سررسید", "Calendar-and-deadlines","https://beraito.com/wp-content/uploads/2021/12/%D8%AC%D9%85%D8%B9%D9%87-%D8%AC%D8%AF%D8%A7-150x150.jpg"],
-      ["تابلو اعلانات", "Bulletin-board","https://beraito.com/wp-content/uploads/2020/06/121134-150x150.jpg.webp"],
-      ["جا مجله ای و جاکتابی رومیزی", "Desktop-magazine-rack-and-bookcase","https://beraito.com/wp-content/uploads/2020/05/520845-150x150.jpg.webp"],
-      ["ست رومیزی مدیریتی", "Management-desk-set","https://beraito.com/wp-content/uploads/2022/02/%D9%88%D8%A7%D9%81%D8%B14-%D8%AA%DA%A9%D9%87-150x150.jpg"],
-      ["سوزن منگنه", "Stapler-needle","https://beraito.com/wp-content/uploads/2020/06/225758-150x150.jpg.webp"],
-      ["برچسب، لیبل و اتیکت", "Tags-labels-and-etiquette","https://beraito.com/wp-content/uploads/2021/11/1-%C3%97-1.9-150x150.jpg"],
-      ["چسب", "Glue","https://beraito.com/wp-content/uploads/2021/08/157-150x150.jpg"],
-      ["دفاتر حسابداری", "Accounting-offices","https://beraito.com/wp-content/uploads/2021/07/45-1-150x150.jpg"],
-      ["دستگاه مهر", "Sealing-machine","https://beraito.com/wp-content/uploads/2021/10/59874521-150x150.jpg"],
-      ["میز و صندلی", "Table-and-chairs","https://beraito.com/wp-content/uploads/2021/11/IMG_20211012_160303_749-150x150.jpg"]
+      ["گیره و کلیپس", "Clamps-and-clips", "https://beraito.com/wp-content/uploads/2021/02/20210221_115031-150x150.jpg"],
+      ["پایه چسب", "adhesive-base", "https://beraito.com/wp-content/uploads/2020/05/5200-150x150.jpg"],
+      ["کاغذ یادداشت", "sticky-note", "https://beraito.com/wp-content/uploads/2020/06/yeetihdPCW253412-150x150.jpg"],
+      ["زونکن", "Zonken", "https://beraito.com/wp-content/uploads/2022/02/20220217_12255-150x150.jpg"],
+      ["لوازم روی میز اداری", "Office-desk-supplies", "https://beraito.com/wp-content/uploads/2021/11/10-%D8%AA%DA%A9%D9%87-1-150x150.jpg"],
+      ["کاغذ تذهیب و ابر و باد", "Illuminated-paper-clouds-and-wind", "https://beraito.com/wp-content/uploads/2020/06/SyFLBzrw9n-150x150.jpg"],
+      ["کازیه رومیزی", "Desktop-casket", "https://beraito.com/wp-content/uploads/2021/11/IMG-20211004-WA0037-150x150.jpg"],
+      ["زیرپایی اداری", "Office-footrest", "https://beraito.com/wp-content/uploads/2020/06/924332-150x150.jpg"],
+      ["دستگاه پانچ کاغذ", "Paper-punching-machine", "https://beraito.com/wp-content/uploads/2021/07/87-1-150x150.jpg"],
+      ["استامپ و جوهر استامپ", "Stamp-and-stamp-ink", "https://beraito.com/wp-content/uploads/2020/05/tDQSI7saof253412-150x150.jpg"],
+      ["پوشه و پاکت", "Folders-and-envelopes", "https://beraito.com/wp-content/uploads/2021/12/%D8%AA%DA%A9%DB%8C-1-150x150.jpg"],
+      ["دیوایدر", "Divider", "https://beraito.com/wp-content/uploads/2021/07/105-1-150x150.jpg"],
+      ["کلربوک | کلیربوک", "Clearbook-Clearbook", "https://beraito.com/wp-content/uploads/2021/09/100s-150x150.jpg"],
+      ["تخته پاک کن", "Eraser-board", "https://beraito.com/wp-content/uploads/2020/07/MTccioXSIZ253422-150x150.jpg"],
+      ["فایل رومیزی اداری", "Office-desktop-file", "https://beraito.com/wp-content/uploads/2020/06/pjHcPAUp6L-1-150x150.jpg"],
+      ["پایه کیس و زیر مانیتوری", "Case-stand-and-monitor-stand", "https://beraito.com/wp-content/uploads/2020/06/783025-150x150.jpg"],
+      ["دستگاه منگنه", "Stapler", "https://beraito.com/wp-content/uploads/2021/11/1708020-150x150.jpg"],
+      ["تخته وایت برد", "Whiteboard", "https://beraito.com/wp-content/uploads/2020/06/213055-150x150.jpg.webp"],
+      ["طلق و شیرازه", "Talq-and-Shiraz", "https://beraito.com/wp-content/uploads/2021/09/gh12-150x150.jpg"],
+      ["ماشین حساب", "Calculator", "https://beraito.com/wp-content/uploads/2021/08/63-150x150.jpg"],
+      ["تقویم و سررسید", "Calendar-and-deadlines", "https://beraito.com/wp-content/uploads/2021/12/%D8%AC%D9%85%D8%B9%D9%87-%D8%AC%D8%AF%D8%A7-150x150.jpg"],
+      ["تابلو اعلانات", "Bulletin-board", "https://beraito.com/wp-content/uploads/2020/06/121134-150x150.jpg.webp"],
+      ["جا مجله ای و جاکتابی رومیزی", "Desktop-magazine-rack-and-bookcase", "https://beraito.com/wp-content/uploads/2020/05/520845-150x150.jpg.webp"],
+      ["ست رومیزی مدیریتی", "Management-desk-set", "https://beraito.com/wp-content/uploads/2022/02/%D9%88%D8%A7%D9%81%D8%B14-%D8%AA%DA%A9%D9%87-150x150.jpg"],
+      ["سوزن منگنه", "Stapler-needle", "https://beraito.com/wp-content/uploads/2020/06/225758-150x150.jpg.webp"],
+      ["برچسب، لیبل و اتیکت", "Tags-labels-and-etiquette", "https://beraito.com/wp-content/uploads/2021/11/1-%C3%97-1.9-150x150.jpg"],
+      ["چسب", "Glue", "https://beraito.com/wp-content/uploads/2021/08/157-150x150.jpg"],
+      ["دفاتر حسابداری", "Accounting-offices", "https://beraito.com/wp-content/uploads/2021/07/45-1-150x150.jpg"],
+      ["دستگاه مهر", "Sealing-machine", "https://beraito.com/wp-content/uploads/2021/10/59874521-150x150.jpg"],
+      ["میز و صندلی", "Table-and-chairs", "https://beraito.com/wp-content/uploads/2021/11/IMG_20211012_160303_749-150x150.jpg"]
     ],
   },
   {
@@ -96,7 +96,7 @@ export const dbmegamenu = [
     menu: ["لوازم خیاطی و خرجکارلوازم ", "Sewing-and-craft-supplies"],
     submenu: [
       ["اتو و ابزار اتوکشی", ""],
-      ["انواع قیچی خیاطی", ""],
+      ["انواع قیچی خیاطی", "types-of-sewing-scissors"],
       ["بشکاف، پنس، درفش و رولت", ""],
       ["تور و گیپور", ""],
       ["جعبه خیاطی", ""],
@@ -118,8 +118,8 @@ export const dbmegamenu = [
       ["لوازم بافتنی", ""],
       ["لوازم تزیین پارچه", ""],
       ["ملزومات و ابزار زیورآلات", ""],
-      ["منجوق، ملیله و پولک", ""],
-      ["نمد و کاموا", ""],
+      ["منجوق، ملیله و پولک", "Tapestry-beads-and-sequins"],
+      ["نمد و کاموا", "Felt-and-yarn"],
       ["هویه، اتیکت زن و تفنگ حرارتی", ""],
     ],
   }
@@ -5451,7 +5451,2074 @@ export const allproducts = [
         ]
       },
     ]
-  }
+  },
+  {
+    products: "types-of-sewing-scissors",
+    productsitems: [
+      {
+        id: 248,
+        desc: "سر نخ زن انگشتری (انگشتی) خیاطی",
+        price: 25000,
+        title: "سر نخ زن انگشتری ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["زرد", "نارنجی", "مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/2-157.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/4-88.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/3-113.webp",
+        ],
+        feature: [
+          "جنس:پلاستیکی",
+          "کاربرد:دارای یک حلقه مانند انگشتر برای دور انگشت و یک تیغ برای چیدن نخ",
+          "ویژگی:دارای حلقه قابل تنظیم سایز برای انگشت و تیغ قابل تعویض",
+          "توضیحات:ارسال رنگ به صورت تصادفی می باشد",
+        ],
+      },
+      {
+        id: 249,
+        desc: "قیچی سر نخ زن (نخ چین) پلاستیکی مدل پین Pin",
+        price: 43000,
+        title: "قیچی سر نخ زن ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["قرمز"],
+        discount: 3,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/2-149.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/3-98.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/2-150.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/2-144.webp",
+        ],
+        feature: [
+          "جنس:پلاستیکی",
+          "کاربرد:مناسب برای چیدن نخ",
+          "ویژگی:بسیار تیز و با کیفیت",
+        ],
+      },
+      {
+        id: 250,
+        desc: "کاتر گرد بر پارچه و چرم",
+        price: 43000,
+        title: "کاتر گرد بر",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["زرد"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/1-178.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/7-49.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/6-66.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/5-82.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "قطر تیغه:۴۵ میلی متر",
+          "کاربرد:مناسب برای برش پارچه و چرم، نوار اریب، تکه دوزی",
+          "ویژگی:طراحی ارگونومیک دسته باعث شده بسیار خوش دست باشد همچنین دارای قفل کنار تیغه می باشد که کار را ایمن میکند",
+          "توضیحات:رنگ دستگاه ممکن است با عکس متفاوت باشد",
+          "تذکر:توجه داشته باشید صفحه زیر برش سنگ، چوب و شیشه نباشد زیرا باعث کند شدن تیغه می شود",
+        ],
+      },
+      {
+        id: 251,
+        desc: "قیچی گلدوزی (جواهر دوزی) دسته طلایی",
+        price: 190000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["طلایی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/08/1-165.webp",
+          "https://beraito.com/wp-content/uploads/2024/08/2-129.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "جنس دسته:فلزی",
+          "کاربرد:مناسب برای چیدن نخ های گلدوزی و جواهر دوزی، بسیار ظریف و کار آمد",
+        ],
+      },
+      {
+        id: 252,
+        desc: "قیچی سر نخ زن (نخ چین) فلزی مدل پین Pin",
+        price: 60000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["ابی", "نقره ای"],
+        discount: 1,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/08/2-126.webp",
+          "https://beraito.com/wp-content/uploads/2024/08/1-162.webp",
+        ],
+        feature: [
+          "جنس:فولادی",
+          "کاربرد:مناسب برای چیدن نخ",
+          "ویژگی:بسیار تیز و با کیفیت",
+        ],
+      },
+      {
+        id: 253,
+        desc: "قیچی خیاطی تیغه فولادی پین Pin همراه با سر نخ زن",
+        price: 490000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["قرمز", "مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/12-17.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/13-13.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/23-5.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/14-13.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "طول تیغه:۱۲ سانتی متر",
+          "جنس دسته:پلاستیکی",
+          "ابعاد سر نخ زن:۱۱.۵*۵",
+        ],
+      },
+      {
+        id: 254,
+        desc: "پک آهنربا اضافه درز بسته 3 عددی",
+        price: 75000,
+        title: "اهنربا",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["نقره ای"],
+        discount: null,
+        img: ["https://beraito.com/wp-content/uploads/2024/04/68.webp"],
+        feature: [
+          "جنس:آهنربا",
+          "کاربرد:برای اتصال به تیغه قیچی جهت برشی یکسان از لبه پارچه",
+          "توضیحات:با جابجایی آهربا ها می توانید سایز های مختلفی را برای ایجاد برش روی پارچه ایجاد کنید",
+        ],
+      },
+      {
+        id: 255,
+        desc: "قیچی خیاطی دالبر پارچه",
+        price: 390000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/04/1-25.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/2-23.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/3-18.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/6-9.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:10 سانتی متر",
+          "کاربرد:برش پارچه، برش کاغذ، برش نمد و تزیین",
+          "ویژگی:جلوگیری از ریش ریش شدن پارچه",
+        ],
+      },
+      {
+        id: 256,
+        desc: "قیچی نمد بری",
+        price: 180000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی", "قرمز"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-15-1.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-17.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-16.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-1-2-1.webp",
+        ],
+        feature: ["جنس دسته:پلاستیکی", "کاربرد:مناسب برای برش چرم و نمد"],
+      },
+      {
+        id: 257,
+        desc: "قیچی خیاطی دبل فیش Double Fish Man",
+        price: 95000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: 6,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/gheychi-3.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychI10.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:۱۰ سانتی متر",
+          "کاربرد:مناسب برای برش پارچه",
+        ],
+      },
+      {
+        id: 258,
+        desc: "قیچی فلزی تیغه مشکی وای دی ال YDL",
+        price: 325000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/4-61.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychI11.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/14-11.webp",
+        ],
+        feature: [
+          "جنس دسته:آهنی",
+          "جنس تیغه:فولادی",
+          "طول تیغه:۸ سانتی متر",
+          "کاربرد:مناسب برای برش پارچه",
+        ],
+      },
+      {
+        id: 259,
+        desc: "قیچی ابرو دسته صورتی",
+        price: 33000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["صورتی"],
+        discount: 8,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/gheych4i.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychi8.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:۵ سانتی متر",
+          "کاربرد:اصلاح ابرو",
+        ],
+      },
+      {
+        id: 260,
+        desc: "سر نخ زن انگشتری (انگشتی) خیاطی",
+        price: 25000,
+        title: "سر نخ زن انگشتری ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["زرد", "نارنجی", "مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/2-157.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/4-88.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/3-113.webp",
+        ],
+        feature: [
+          "جنس:پلاستیکی",
+          "کاربرد:دارای یک حلقه مانند انگشتر برای دور انگشت و یک تیغ برای چیدن نخ",
+          "ویژگی:دارای حلقه قابل تنظیم سایز برای انگشت و تیغ قابل تعویض",
+          "توضیحات:ارسال رنگ به صورت تصادفی می باشد",
+        ],
+      },
+      {
+        id: 261,
+        desc: "قیچی سر نخ زن (نخ چین) پلاستیکی مدل پین Pin",
+        price: 43000,
+        title: "قیچی سر نخ زن ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["قرمز"],
+        discount: 3,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/2-149.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/3-98.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/2-150.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/2-144.webp",
+        ],
+        feature: [
+          "جنس:پلاستیکی",
+          "کاربرد:مناسب برای چیدن نخ",
+          "ویژگی:بسیار تیز و با کیفیت",
+        ],
+      },
+      {
+        id: 262,
+        desc: "کاتر گرد بر پارچه و چرم",
+        price: 43000,
+        title: "کاتر گرد بر",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["زرد"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/1-178.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/7-49.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/6-66.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/5-82.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "قطر تیغه:۴۵ میلی متر",
+          "کاربرد:مناسب برای برش پارچه و چرم، نوار اریب، تکه دوزی",
+          "ویژگی:طراحی ارگونومیک دسته باعث شده بسیار خوش دست باشد همچنین دارای قفل کنار تیغه می باشد که کار را ایمن میکند",
+          "توضیحات:رنگ دستگاه ممکن است با عکس متفاوت باشد",
+          "تذکر:توجه داشته باشید صفحه زیر برش سنگ، چوب و شیشه نباشد زیرا باعث کند شدن تیغه می شود",
+        ],
+      },
+      {
+        id: 263,
+        desc: "قیچی گلدوزی (جواهر دوزی) دسته طلایی",
+        price: 190000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["طلایی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/08/1-165.webp",
+          "https://beraito.com/wp-content/uploads/2024/08/2-129.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "جنس دسته:فلزی",
+          "کاربرد:مناسب برای چیدن نخ های گلدوزی و جواهر دوزی، بسیار ظریف و کار آمد",
+        ],
+      },
+      {
+        id: 264,
+        desc: "قیچی سر نخ زن (نخ چین) فلزی مدل پین Pin",
+        price: 60000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["ابی", "نقره ای"],
+        discount: 1,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/08/2-126.webp",
+          "https://beraito.com/wp-content/uploads/2024/08/1-162.webp",
+        ],
+        feature: [
+          "جنس:فولادی",
+          "کاربرد:مناسب برای چیدن نخ",
+          "ویژگی:بسیار تیز و با کیفیت",
+        ],
+      },
+      {
+        id: 265,
+        desc: "قیچی خیاطی تیغه فولادی پین Pin همراه با سر نخ زن",
+        price: 490000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["قرمز", "مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/12-17.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/13-13.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/23-5.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/14-13.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "طول تیغه:۱۲ سانتی متر",
+          "جنس دسته:پلاستیکی",
+          "ابعاد سر نخ زن:۱۱.۵*۵",
+        ],
+      },
+      {
+        id: 266,
+        desc: "پک آهنربا اضافه درز بسته 3 عددی",
+        price: 75000,
+        title: "اهنربا",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["نقره ای"],
+        discount: null,
+        img: ["https://beraito.com/wp-content/uploads/2024/04/68.webp"],
+        feature: [
+          "جنس:آهنربا",
+          "کاربرد:برای اتصال به تیغه قیچی جهت برشی یکسان از لبه پارچه",
+          "توضیحات:با جابجایی آهربا ها می توانید سایز های مختلفی را برای ایجاد برش روی پارچه ایجاد کنید",
+        ],
+      },
+      {
+        id: 267,
+        desc: "قیچی خیاطی دالبر پارچه",
+        price: 390000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/04/1-25.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/2-23.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/3-18.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/6-9.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:10 سانتی متر",
+          "کاربرد:برش پارچه، برش کاغذ، برش نمد و تزیین",
+          "ویژگی:جلوگیری از ریش ریش شدن پارچه",
+        ],
+      },
+      {
+        id: 268,
+        desc: "قیچی نمد بری",
+        price: 180000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی", "قرمز"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-15-1.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-17.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-16.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-1-2-1.webp",
+        ],
+        feature: ["جنس دسته:پلاستیکی", "کاربرد:مناسب برای برش چرم و نمد"],
+      },
+      {
+        id: 269,
+        desc: "قیچی خیاطی دبل فیش Double Fish Man",
+        price: 95000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: 6,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/gheychi-3.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychI10.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:۱۰ سانتی متر",
+          "کاربرد:مناسب برای برش پارچه",
+        ],
+      },
+      {
+        id: 270,
+        desc: "قیچی فلزی تیغه مشکی وای دی ال YDL",
+        price: 325000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/4-61.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychI11.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/14-11.webp",
+        ],
+        feature: [
+          "جنس دسته:آهنی",
+          "جنس تیغه:فولادی",
+          "طول تیغه:۸ سانتی متر",
+          "کاربرد:مناسب برای برش پارچه",
+        ],
+      },
+      {
+        id: 271,
+        desc: "قیچی ابرو دسته صورتی",
+        price: 33000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["صورتی"],
+        discount: 8,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/gheych4i.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychi8.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:۵ سانتی متر",
+          "کاربرد:اصلاح ابرو",
+        ],
+      },
+      {
+        id: 272,
+        desc: "سر نخ زن انگشتری (انگشتی) خیاطی",
+        price: 25000,
+        title: "سر نخ زن انگشتری ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["زرد", "نارنجی", "مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/2-157.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/4-88.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/3-113.webp",
+        ],
+        feature: [
+          "جنس:پلاستیکی",
+          "کاربرد:دارای یک حلقه مانند انگشتر برای دور انگشت و یک تیغ برای چیدن نخ",
+          "ویژگی:دارای حلقه قابل تنظیم سایز برای انگشت و تیغ قابل تعویض",
+          "توضیحات:ارسال رنگ به صورت تصادفی می باشد",
+        ],
+      },
+      {
+        id: 273,
+        desc: "قیچی سر نخ زن (نخ چین) پلاستیکی مدل پین Pin",
+        price: 43000,
+        title: "قیچی سر نخ زن ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["قرمز"],
+        discount: 3,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/2-149.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/3-98.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/2-150.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/2-144.webp",
+        ],
+        feature: [
+          "جنس:پلاستیکی",
+          "کاربرد:مناسب برای چیدن نخ",
+          "ویژگی:بسیار تیز و با کیفیت",
+        ],
+      },
+      {
+        id: 274,
+        desc: "کاتر گرد بر پارچه و چرم",
+        price: 43000,
+        title: "کاتر گرد بر",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["زرد"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/09/1-178.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/7-49.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/6-66.webp",
+          "https://beraito.com/wp-content/uploads/2024/09/5-82.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "قطر تیغه:۴۵ میلی متر",
+          "کاربرد:مناسب برای برش پارچه و چرم، نوار اریب، تکه دوزی",
+          "ویژگی:طراحی ارگونومیک دسته باعث شده بسیار خوش دست باشد همچنین دارای قفل کنار تیغه می باشد که کار را ایمن میکند",
+          "توضیحات:رنگ دستگاه ممکن است با عکس متفاوت باشد",
+          "تذکر:توجه داشته باشید صفحه زیر برش سنگ، چوب و شیشه نباشد زیرا باعث کند شدن تیغه می شود",
+        ],
+      },
+      {
+        id: 275,
+        desc: "قیچی گلدوزی (جواهر دوزی) دسته طلایی",
+        price: 190000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["طلایی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/08/1-165.webp",
+          "https://beraito.com/wp-content/uploads/2024/08/2-129.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "جنس دسته:فلزی",
+          "کاربرد:مناسب برای چیدن نخ های گلدوزی و جواهر دوزی، بسیار ظریف و کار آمد",
+        ],
+      },
+      {
+        id: 276,
+        desc: "قیچی سر نخ زن (نخ چین) فلزی مدل پین Pin",
+        price: 60000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["ابی", "نقره ای"],
+        discount: 1,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/08/2-126.webp",
+          "https://beraito.com/wp-content/uploads/2024/08/1-162.webp",
+        ],
+        feature: [
+          "جنس:فولادی",
+          "کاربرد:مناسب برای چیدن نخ",
+          "ویژگی:بسیار تیز و با کیفیت",
+        ],
+      },
+      {
+        id: 277,
+        desc: "قیچی خیاطی تیغه فولادی پین Pin همراه با سر نخ زن",
+        price: 490000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["قرمز", "مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/12-17.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/13-13.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/23-5.webp",
+          "https://beraito.com/wp-content/uploads/2024/05/14-13.webp",
+        ],
+        feature: [
+          "جنس تیغه:فولادی",
+          "طول تیغه:۱۲ سانتی متر",
+          "جنس دسته:پلاستیکی",
+          "ابعاد سر نخ زن:۱۱.۵*۵",
+        ],
+      },
+      {
+        id: 278,
+        desc: "پک آهنربا اضافه درز بسته 3 عددی",
+        price: 75000,
+        title: "اهنربا",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["نقره ای"],
+        discount: null,
+        img: ["https://beraito.com/wp-content/uploads/2024/04/68.webp"],
+        feature: [
+          "جنس:آهنربا",
+          "کاربرد:برای اتصال به تیغه قیچی جهت برشی یکسان از لبه پارچه",
+          "توضیحات:با جابجایی آهربا ها می توانید سایز های مختلفی را برای ایجاد برش روی پارچه ایجاد کنید",
+        ],
+      },
+      {
+        id: 279,
+        desc: "قیچی خیاطی دالبر پارچه",
+        price: 390000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/04/1-25.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/2-23.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/3-18.webp",
+          "https://beraito.com/wp-content/uploads/2024/04/6-9.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:10 سانتی متر",
+          "کاربرد:برش پارچه، برش کاغذ، برش نمد و تزیین",
+          "ویژگی:جلوگیری از ریش ریش شدن پارچه",
+        ],
+      },
+      {
+        id: 280,
+        desc: "قیچی نمد بری",
+        price: 180000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی", "قرمز"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-15-1.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-17.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-16.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/Untitled-1-2-1.webp",
+        ],
+        feature: ["جنس دسته:پلاستیکی", "کاربرد:مناسب برای برش چرم و نمد"],
+      },
+      {
+        id: 281,
+        desc: "قیچی خیاطی دبل فیش Double Fish Man",
+        price: 95000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: 6,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/gheychi-3.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychI10.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:۱۰ سانتی متر",
+          "کاربرد:مناسب برای برش پارچه",
+        ],
+      },
+      {
+        id: 282,
+        desc: "قیچی فلزی تیغه مشکی وای دی ال YDL",
+        price: 325000,
+        title: "قیچی",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["مشکی"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/4-61.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychI11.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/14-11.webp",
+        ],
+        feature: [
+          "جنس دسته:آهنی",
+          "جنس تیغه:فولادی",
+          "طول تیغه:۸ سانتی متر",
+          "کاربرد:مناسب برای برش پارچه",
+        ],
+      },
+      {
+        id: 283,
+        desc: "قیچی ابرو دسته صورتی",
+        price: 33000,
+        title: "قیچی ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["صورتی"],
+        discount: 8,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/02/gheych4i.webp",
+          "https://beraito.com/wp-content/uploads/2024/02/gheychi8.webp",
+        ],
+        feature: [
+          "جنس دسته:پلاستیکی",
+          "جنس تیغه:استیل",
+          "طول تیغه:۵ سانتی متر",
+          "کاربرد:اصلاح ابرو",
+        ],
+      }
+    ]
+  },
+  {
+    products: "Felt-and-yarn",
+    productsitems: [
+      {
+        id: 284,
+        desc: "کاموا اکریل تاب بسته 5 عددی",
+        price: 35000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/8-14.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/15-3.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 285,
+        desc: "کاموا اوزای لاوانتا Uzay بسته 5 عددی",
+        price: 300000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/2-55.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/12-5.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/11-7.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 286,
+        desc: "کاموا چلس Chells بسته 5 عددی",
+        price: 250000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/1-78.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/12-5-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/11-7-1.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 287,
+        desc: "کاموا یوموش (ریشه) بسته 5 عددی",
+        price: 200000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/09/3-105.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/3-106.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/2-153.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 288,
+        desc: "نمد 2 میل با ابعاد 150×100 سانتی متر",
+        price: 90000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/19-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/8-9.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/7-10.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/14-2.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 289,
+        desc: "کاموا اکریل بافت بسته 20 عددی",
+        price: 960000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/8-11.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/14-4.webp'
+
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 290,
+        desc: "کاموا سوزنی مدل رز Rose",
+        price: 75000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/6-10.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/1-27.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/2-25.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/3-20.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 291,
+        desc: "کاموا بهاران بسته 25 عددی",
+        price: 490000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/18-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/17-4.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 292,
+        desc: "نمد 4 میل با ابعاد 100×100 سانتی متر",
+        price: 168000,
+        title: "نمد ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/18-4.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/8-13.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 293,
+        desc: "کاموا لیزای باتیک Lizay Batic ترک چند رنگ اسپرت کد 2 بسته 5",
+        price: 50000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/28-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/31-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/WXUA9520-300x300.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 294,
+        desc: "کاموا لیزای باتیک Lizay Batic ترک چند رنگ اسپرت کد 1 بسته 5",
+        price: 50000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/28-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/31-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/WXUA9520-300x300.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 295,
+        desc: "کاموا اکریل تاب بسته 5 عددی",
+        price: 35000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/8-14.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/15-3.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 266,
+        desc: "کاموا اوزای لاوانتا Uzay بسته 5 عددی",
+        price: 300000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/2-55.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/12-5.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/11-7.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 297,
+        desc: "کاموا چلس Chells بسته 5 عددی",
+        price: 250000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/1-78.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/12-5-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/11-7-1.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 298,
+        desc: "کاموا یوموش (ریشه) بسته 5 عددی",
+        price: 200000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/09/3-105.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/3-106.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/2-153.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 299,
+        desc: "نمد 2 میل با ابعاد 150×100 سانتی متر",
+        price: 90000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/19-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/8-9.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/7-10.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/14-2.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 300,
+        desc: "کاموا اکریل بافت بسته 20 عددی",
+        price: 960000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/8-11.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/14-4.webp'
+
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 301,
+        desc: "کاموا سوزنی مدل رز Rose",
+        price: 75000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/6-10.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/1-27.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/2-25.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/3-20.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 302,
+        desc: "کاموا بهاران بسته 25 عددی",
+        price: 490000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/18-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/17-4.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 303,
+        desc: "نمد 4 میل با ابعاد 100×100 سانتی متر",
+        price: 168000,
+        title: "نمد ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/18-4.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/8-13.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 304,
+        desc: "کاموا لیزای باتیک Lizay Batic ترک چند رنگ اسپرت کد 2 بسته 5",
+        price: 50000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/28-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/31-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/WXUA9520-300x300.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 305,
+        desc: "کاموا لیزای باتیک Lizay Batic ترک چند رنگ اسپرت کد 1 بسته 5",
+        price: 50000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/28-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/31-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/WXUA9520-300x300.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 306,
+        desc: "کاموا اکریل تاب بسته 5 عددی",
+        price: 35000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/8-14.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/15-3.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 307,
+        desc: "کاموا اوزای لاوانتا Uzay بسته 5 عددی",
+        price: 300000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/2-55.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/12-5.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/11-7.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 308,
+        desc: "کاموا چلس Chells بسته 5 عددی",
+        price: 250000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/1-78.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/12-5-1.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/11-7-1.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 309,
+        desc: "کاموا یوموش (ریشه) بسته 5 عددی",
+        price: 200000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/09/3-105.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/3-106.webp',
+          'https://beraito.com/wp-content/uploads/2024/09/2-153.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 310,
+        desc: "نمد 2 میل با ابعاد 150×100 سانتی متر",
+        price: 90000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/19-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/8-9.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/7-10.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/14-2.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 311,
+        desc: "کاموا اکریل بافت بسته 20 عددی",
+        price: 960000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/8-11.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/14-4.webp'
+
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 312,
+        desc: "کاموا سوزنی مدل رز Rose",
+        price: 75000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/6-10.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/1-27.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/2-25.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/3-20.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 313,
+        desc: "کاموا بهاران بسته 25 عددی",
+        price: 490000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/18-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/17-4.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 314,
+        desc: "نمد 4 میل با ابعاد 100×100 سانتی متر",
+        price: 168000,
+        title: "نمد ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/18-4.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/8-13.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 315,
+        desc: "کاموا لیزای باتیک Lizay Batic ترک چند رنگ اسپرت کد 2 بسته 5",
+        price: 50000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/28-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/31-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/WXUA9520-300x300.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      },
+      {
+        id: 316,
+        desc: "کاموا لیزای باتیک Lizay Batic ترک چند رنگ اسپرت کد 1 بسته 5",
+        price: 50000,
+        title: "کاموا ",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["چند رنگ"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/04/28-2.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/31-3.webp',
+          'https://beraito.com/wp-content/uploads/2024/04/WXUA9520-300x300.webp'
+        ],
+        feature: [
+          'جنس:الیاف مصنوعی',
+          'کاربرد:مناسب برای کارای دستی و هنری، تزیین، ساخت عروسک و …',
+          'ویژگی:ضخیم دارای انعطاف و با کیفیت بالا'
+        ],
+      }
+    ]
+  },
+  {
+    products: "Tapestry-beads-and-sequins",
+    productsitems: [
+      {
+        id: 317,
+        desc: "منجوق 2 میل بنفش یاسی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 318,
+        desc: "منجوق 2 میل صورتی صدفی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 319,
+        desc: "منجوق 2 میل سبز فسفری مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 320,
+        desc: "منجوق 2 میل جگری مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 321,
+        desc: "منجوق 2 میل صورتی کم رنگ مات مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/50-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 322,
+        desc: "منجوق 2 میل قرمز هولوگرامی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/47-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 323,
+        desc: "منجوق 2 میل صورتی هولوگرامی داخل جیوه مدل Fgb بسته 5",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/52-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 324,
+        desc: "منجوق 2 میل آبی متالیک مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/59-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 325,
+        desc: "منجوق 2 میل طوسی مات مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/55-2-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 326,
+        desc: "منجوق 2 میل نباتی داخل جیوه مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/73-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 327,
+        desc: "منجوق 2 میل صورتی کالباسی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp',
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 328,
+        desc: "منجوق 2 میل قرمز آلبالویی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp',
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 329,
+        desc: "منجوق 2 میل بنفش یاسی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 330,
+        desc: "منجوق 2 میل صورتی صدفی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 331,
+        desc: "منجوق 2 میل سبز فسفری مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 332,
+        desc: "منجوق 2 میل جگری مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 333,
+        desc: "منجوق 2 میل صورتی کم رنگ مات مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/50-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 334,
+        desc: "منجوق 2 میل قرمز هولوگرامی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/47-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 335,
+        desc: "منجوق 2 میل صورتی هولوگرامی داخل جیوه مدل Fgb بسته 5",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/52-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 336,
+        desc: "منجوق 2 میل آبی متالیک مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/59-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 337,
+        desc: "منجوق 2 میل طوسی مات مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/55-2-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 338,
+        desc: "منجوق 2 میل نباتی داخل جیوه مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/73-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 339,
+        desc: "منجوق 2 میل صورتی کالباسی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp',
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 340,
+        desc: "منجوق 2 میل قرمز آلبالویی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp',
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 341,
+        desc: "منجوق 2 میل بنفش یاسی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 342,
+        desc: "منجوق 2 میل صورتی صدفی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 343,
+        desc: "منجوق 2 میل سبز فسفری مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 344,
+        desc: "منجوق 2 میل جگری مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp'
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 345,
+        desc: "منجوق 2 میل صورتی کم رنگ مات مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/50-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 346,
+        desc: "منجوق 2 میل قرمز هولوگرامی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/47-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 347,
+        desc: "منجوق 2 میل صورتی هولوگرامی داخل جیوه مدل Fgb بسته 5",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/52-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 348,
+        desc: "منجوق 2 میل آبی متالیک مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/59-1-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 349,
+        desc: "منجوق 2 میل طوسی مات مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/55-2-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 350,
+        desc: "منجوق 2 میل نباتی داخل جیوه مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          "https://beraito.com/wp-content/uploads/2024/05/73-300x300.webp"
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 351,
+        desc: "منجوق 2 میل صورتی کالباسی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp',
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+      {
+        id: 352,
+        desc: "منجوق 2 میل قرمز آلبالویی مدل Fgb بسته 5 گرمی",
+        price: 13000,
+        title: "منجوق",
+        brand: "متفرقه",
+        country: "چین",
+        color: ["متنوع"],
+        discount: null,
+        img: [
+          'https://beraito.com/wp-content/uploads/2024/05/1-104-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/3-2-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/1-108-300x300.webp',
+          'https://beraito.com/wp-content/uploads/2024/05/2-76-300x300.webp',
+        ],
+        feature: [
+          'جنس:سرامیک',
+          'کاربرد:لباس مجلسی، جواهر دوزی، کار های هنری و …',
+          'ویژگی:کاملا یک دست با رنگ ثابت می باشد'
+        ],
+      },
+    ]
+  },
 ]
 
 
