@@ -20,7 +20,7 @@ function ProductInfo() {
   const product = allproducts[indexImgSliderPruduct[0]].productsitems[indexImgSliderPruduct[1]]
   return (
     <div className='p-5'>
-      <div className='shadow dark:shadow-gray-200 shadow-gray-700 flex flex-col gap-5 w-full h-full p-5'>
+      <div className='shadow dark:shadow-gray-200 shadow-gray-500 flex flex-col gap-5 w-full h-full p-5'>
         <div>
           <div className='flex items-center border-b border-gray-400'>
             <div >
@@ -38,11 +38,11 @@ function ProductInfo() {
         <div className='grow'>
           <div className='flex flex-col gap-3'>
             <div>
-              <h6 className='text-2xl'>
+              <h6 className='text-lg'>
                 ویژگی های محصول  :
               </h6>
             </div>
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-3 text-sm'>
               {product.feature.length > 0 ? product.feature.map((item, index) => {
                 return (
                   <span key={index}>{item}</span>
@@ -71,19 +71,19 @@ function ProductInfo() {
           <div className='flex items-center gap-5'>
             <div className='flex items-center gap-5'>
               <div>
-                <button className='px-3 py-2 ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-700' onClick={increaseCounter}>
+                <button className='px-3 py-2 ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-500' onClick={increaseCounter}>
                   <FaPlus />
                 </button>
               </div>
               <div className='min-w-2.5 max-w-2.5'><span className='text-2xl'>{counter}</span></div>
               <div>
-                <button className='px-3 py-2 ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-700' onClick={decreaseCounter}>
+                <button className='px-3 py-2 ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-500' onClick={decreaseCounter}>
                   <FaMinus />
                 </button>
               </div>
             </div>
             <div>
-              <button className='ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg p-3 flex items-center gap-3 cursor-pointer'>
+              <button className='ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg p-3 flex items-center gap-3 cursor-pointer'>
                 <div><span><CiShoppingCart className='text-4xl border-l border-l-foreground pl-1 text-amber-500' />
                 </span></div>
                 <div><span className='text-sm lg:text-2xl'>افزودن به سبد خرید</span></div>

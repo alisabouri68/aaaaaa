@@ -22,7 +22,7 @@ function ProductSlider() {
 
     return (
         <div className=''>
-            <div className='relative shadow dark:shadow-gray-200 shadow-gray-700 rounded-lg'>
+            <div className='relative shadow dark:shadow-gray-200 shadow-gray-500 rounded-lg h-full'>
                 <Image
                     className='w-full h-full object-cover rounded-lg'
                     src={  product.img[selectedImageIndex] || img }
