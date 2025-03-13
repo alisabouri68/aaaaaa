@@ -5,7 +5,11 @@ import Image from 'next/image'
 import { RiDeleteBin6Line } from "react-icons/ri";
 import Container from '../component/header/Container'
 import img from '../../../public/img/logo.png'
+import { FaPlus } from "react-icons/fa";
+import { FaMinus } from "react-icons/fa";
+import { UseCounterShopingCart } from '../zustand/UseCounterShopingCart';
 function ShoppingCart() {
+    const { counter, increaseCounter, decreaseCounter } = UseCounterShopingCart()
     const { shoppingCart, removeFromCart } = UseButtonAddBascket()
     return (
 
@@ -37,13 +41,13 @@ function ShoppingCart() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {shoppingCart&&shoppingCart.length>0 ? shoppingCart.map((product, index) => (
+                                {shoppingCart && shoppingCart.length > 0 ? shoppingCart.map((product, index) => (
 
                                     <tr key={product.id} className="bg-white border-b  dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
                                         <td className="p-4">
                                             <Image
                                                 className="w-16 md:w-32 max-w-full max-h-full rounded-lg"
-                                                src={product.img && product.img[0] ? product.img[0] :img}
+                                                src={product.img && product.img[0] ? product.img[0] : img}
                                                 alt={product.title || "logo"}
                                                 width={200}
                                                 height={200}
@@ -55,7 +59,27 @@ function ShoppingCart() {
                                             {product.desc}
                                         </td>
                                         <td className="px-6 py-4">
-xxxxxxxxxxxxxxxxx
+                                            <div className='flex gap-5'>
+                                                <div>
+                                                    <button className='border rounded-lg p-1' onClick={increaseCounter}>
+                                                        <span>
+                                                            <FaPlus />
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div className='min-w-8 max-w-8 flex items-center justify-center'>
+                                                    <span>
+                                                        {counter}
+                                                    </span>
+                                                </div>
+                                                <div>
+                                                    <button className='border rounded-lg p-1' onClick={decreaseCounter}>
+                                                        <span>
+                                                            <FaMinus />
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </td>
                                         <td className="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                                             {product.discount ? product.discount + "%" : "-"}
@@ -71,8 +95,8 @@ xxxxxxxxxxxxxxxxx
                                         </td>
                                     </tr>
                                 )) : <tr>
-                                <td colSpan="6" className="text-center h-[65vh]">سبد خرید خالی است</td>
-                            </tr>
+                                    <td colSpan="6" className="text-center h-[65vh]">سبد خرید خالی است</td>
+                                </tr>
 
                                 }
 

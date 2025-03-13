@@ -1,13 +1,16 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { allproducts } from '../header/db'
 import { UseIndexSliderProductStore } from '@/app/zustand/UseIndexSliderProductStore'
 import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
 import { CiShoppingCart } from "react-icons/ci";
-import { UseCounterShopingCart } from '@/app/zustand/UseCounterShopingCart';
+import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
 function ProductInfo() {
-  const { counter, increaseCounter, decreaseCounter } = UseCounterShopingCart()
+  const { shoppingCart, setShoppingCart, removeShopingCart, increaseCounter, decreaseCounter } = UseButtonAddBascket();
+  const [flag ,setFlag] = useState(true)
+  console.log(shoppingCart[0].counter)
   const { indexImgSliderPruduct } = UseIndexSliderProductStore()
   if (!indexImgSliderPruduct ||
     indexImgSliderPruduct.length !== 2 ||
@@ -18,6 +21,10 @@ function ProductInfo() {
     </div>
   }
   const product = allproducts[indexImgSliderPruduct[0]].productsitems[indexImgSliderPruduct[1]]
+  const xxxxx = () => {
+    setShoppingCart(product)
+    setFlag(false)
+  }
   return (
     <div className='p-5'>
       <div className='shadow dark:shadow-gray-200 shadow-gray-500 flex flex-col gap-5 w-full h-full p-5'>
@@ -69,26 +76,39 @@ function ProductInfo() {
             </span>
           </div>
           <div className='flex items-center gap-5'>
-            <div className='flex items-center gap-5'>
-              <div>
-                <button className='px-3 py-2 ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-500' onClick={increaseCounter}>
-                  <FaPlus />
+            {
+              flag ? <div>
+                <button className='ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg p-3 flex items-center gap-3 cursor-pointer' onClick={xxxxx}>
+                  <div><span><CiShoppingCart className='text-4xl border-l border-l-foreground pl-1 text-amber-500' />
+                  </span></div>
+                  <div><span className='text-sm lg:text-2xl'>افزودن به سبد خرید</span></div>
                 </button>
+              </div> :
+               <div className='flex items-center gap-5'>
+                <div>
+                  <button className='px-3 py-2 ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-500' onClick={() => increaseCounter(product.id)}>
+                    <FaPlus />
+                  </button>
+                </div>
+                <div className='min-w-2.5 max-w-2.5'><span className='text-2xl'>
+                  {
+                    shoppingCart && shoppingCart.map(item => {
+                      if (item.id === product.id) {
+                        return (
+                          item.counter
+                        )
+                      }
+                    })
+                  }</span></div>
+                <div>
+                  <button className='px-3 py-2 ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-500' onClick={() => decreaseCounter(product.id)}>
+                    <FaMinus />
+                  </button>
+                </div>
               </div>
-              <div className='min-w-2.5 max-w-2.5'><span className='text-2xl'>{counter}</span></div>
-              <div>
-                <button className='px-3 py-2 ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg shadow dark:shadow-gray-200 shadow-gray-500' onClick={decreaseCounter}>
-                  <FaMinus />
-                </button>
-              </div>
-            </div>
-            <div>
-              <button className='ring-2 ring-foreground hover:ring-amber-600 transition-all rounded-lg p-3 flex items-center gap-3 cursor-pointer'>
-                <div><span><CiShoppingCart className='text-4xl border-l border-l-foreground pl-1 text-amber-500' />
-                </span></div>
-                <div><span className='text-sm lg:text-2xl'>افزودن به سبد خرید</span></div>
-              </button>
-            </div>
+            }
+
+
           </div>
         </div>
       </div>
