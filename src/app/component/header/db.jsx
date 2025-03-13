@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 export const dbmegamenu = [
   {
     menu: ["لوازم اداری", "Office-supplies"],

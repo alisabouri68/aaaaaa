@@ -5,7 +5,7 @@ import ProductInfo from './ProductInfo'
 function ProductTop() {
   return (
    <>
-<div className='w-full flex *:w-[50%] *:p-5'>
+<div className='w-full flex flex-wrap *:w-full *:lg:w-[50%] *:p-5'>
 <ProductSlider/>
 <ProductInfo/>
 </div>

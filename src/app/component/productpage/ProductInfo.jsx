@@ -29,7 +29,7 @@ function ProductInfo() {
               </span>
             </div>
             <div>
-              <h3 className='text-2xl'>
+              <h3 className='text-lg lg:text-2xl'>
                 {product.desc}
               </h3>
             </div>
@@ -86,7 +86,7 @@ function ProductInfo() {
               <button className='ring-3 ring-foreground hover:ring-amber-600 transition-all rounded-lg p-3 flex items-center gap-3 cursor-pointer'>
                 <div><span><CiShoppingCart className='text-4xl border-l border-l-foreground pl-1 text-amber-500' />
                 </span></div>
-                <div><span>افزودن به سبد خرید</span></div>
+                <div><span className='text-sm lg:text-2xl'>افزودن به سبد خرید</span></div>
               </button>
             </div>
           </div>
