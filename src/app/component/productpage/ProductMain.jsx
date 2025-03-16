@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-function ProductMain() {
-  return (
-    <div>productMain</div>
-  )
-}
+// function ProductMain() {
+//   return (
+//     <div>productMain</div>
+//   )
+// }
 
-export default ProductMain
+// export default ProductMain

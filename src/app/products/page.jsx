@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-function page(props) {
-  return (
-    <div>page</div>
-  )
-}
+// function page(props) {
+//   return (
+//     <div>page</div>
+//   )
+// }
 
-export default page
+// export default page

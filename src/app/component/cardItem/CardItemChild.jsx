@@ -1,15 +1,16 @@
 'use client'
 import React from 'react'
 import Card from './Card';
-function CardItemChild({ filteredProducts }) {
-
+import { UseDataStore } from '@/app/zustand/useDataStore';
+function CardItemChild({ slug }) {
+        const {dataProduct}=UseDataStore()
     return (
         <>
-            {filteredProducts.length > 0 &&
-                filteredProducts.map((xxx) => {
-                  
+            {dataProduct &&
+                dataProduct.map((item) => {
+                  if(item.title === slug)
                     return (
-                        <Card xxx={xxx}  key={xxx.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 dark:hover:bg-gray-500'/>
+                        <Card xxx={item}  key={item.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 '/>
                     );
                 })}
         </>

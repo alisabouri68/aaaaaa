@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import img from '../../../../public/img/logo.png'
 import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
-function Card({ xxx, styles , darkstyle }) {
+function Card({ xxx, styles, darkstyle }) {
     const { setShoppingCart } = UseButtonAddBascket()
     const [imageKeys, setImageKeys] = useState({});
     const handleImageChange = (productId, imageIndex) => {
@@ -17,17 +17,17 @@ function Card({ xxx, styles , darkstyle }) {
     const currentImageKey = imageKeys[xxx.id] || 0;
     return (
         <div className=" pl-5 pb-5 flex">
-            <div className={`flex flex-col grow rounded-lg overflow-hidden ${darkstyle}  relative ${xxx.discount?'before':''} `}>
-                <Link href={`/products/${xxx.title.split(" ").filter(Boolean).join("-") + xxx.id}`} className="flex flex-col justify-evenly  duration-500 h-[85%]">
+            <div className={`flex flex-col grow rounded-lg overflow-hidden ${darkstyle}  relative ${xxx.discount ? 'before' : ''} `}>
+                <Link href={`/products/${xxx.title +"-"+xxx.id}`} className="flex flex-col justify-evenly  duration-500 h-[85%]">
                     <div className='flex items-center justify-center'>
                         {xxx.img[currentImageKey]?.trim() ? (
                             <Image
-                                className="rounded-2xl"
+                                className="rounded-2xl object-cover"
                                 layout="intrinsic"
-                                width={132}
-                                height={132}
+                                width={300}
+                                height={300}
                                 src={xxx.img[currentImageKey].trim()}
-                                alt={xxx.desc}
+                                alt={xxx.description}
                                 unoptimized={true}
                                 onError={(e) => {
                                     e.target.src = img;
@@ -37,10 +37,10 @@ function Card({ xxx, styles , darkstyle }) {
 
 
                     </div>
-                    
+
                     <div className='flex p-2'>
                         <p className='h-full w-full ellipsis-2 text-xs'>
-                            {xxx.desc}
+                            {xxx.description}
                         </p>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-2 px-2">
@@ -54,11 +54,11 @@ function Card({ xxx, styles , darkstyle }) {
                     </div>
                 </Link>
 
-                <div className={`${xxx.discount ?'text-white text-sm absolute top-2 left-0.5' : "hidden"} `}>
-                        {xxx.discount ? xxx.discount + ' % ' : null}
+                <div className={`${xxx.discount ? 'text-white text-sm absolute top-2 left-0.5' : "hidden"} `}>
+                    {xxx.discount ? xxx.discount + ' % ' : null}
                 </div>
                 <div className={`bg-amber-500 h-[15%] ${styles}`}>
-                <div className="flex w-full items-center justify-center gap-2 absolute top-[43%]">
+                    <div className="hidden lg:flex w-full items-center justify-center gap-2 absolute lg:top-[50%] xl:top-[55%] bg-background h-8 rounded-lg">
                         {xxx.img &&
                             xxx.img.map((_, i) => (
                                 <span
@@ -70,11 +70,18 @@ function Card({ xxx, styles , darkstyle }) {
                                         } rounded-full flex cursor-pointer duration-500`}
                                 ></span>
                             ))}</div>
-                    <button className='flex w-full h-full items-center justify-center cursor-pointer text-4xl text-black' onClick={() => setShoppingCart(xxx)}>
+                    {xxx.select === null ? <button className='flex w-full h-full items-center justify-center cursor-pointer text-4xl text-black' onClick={() => setShoppingCart(xxx)}>
                         <span>
                             <CiShoppingBasket />
                         </span>
-                    </button>
+                    </button> : <Link href={`/products/${xxx.title+"-"+xxx.id}`} className='flex w-full h-full items-center justify-center cursor-pointer text-lg text-black'>
+                     <span>
+                    انتخاب گزینه ها
+                     </span>
+                    </Link>
+
+                    }
+
                 </div>
 
             </div>

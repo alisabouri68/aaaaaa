@@ -20,28 +20,10 @@ function RighHeader({ children }) {
                 href={`/category/${item.menu[1]}`}
                 title={item.menu[0]}
                 key={index}
-                icons={
-                  index === 0 ? (
-                    <FaPenAlt />
-                  ) : index === 1 ? (
-                    <FaPenFancy />
-                  ) : index === 2 ? (
-                    <FaPen />
-                  ) : index === 3 ? (
-                    <FaMouse />
-                  ) : index === 4 ? (
-                    <TbGoGame />
-                  ) : index === 5 ? (
-                    <GiSewingMachine />
-                  ) : (
-                    ""
-                  )
-                }
+                icons={<FaPenAlt />}
               >
                 <ul
-                  className={`${
-                    index === 0 ? "z-10" : ""
-                  } border border-gray-700 dark:border-gray-200 h-full duration-300 absolute top-0   flex flex-wrap opacity-100 *:w-[20%] p-3 group-hover/set:z-20 group-hover/set:opacity-100`}
+                  className="border border-gray-500 dark:border-gray-200 h-full duration-300 absolute top-0 flex flex-wrap *:w-[20%] p-3 rounded-l-lg"
                   style={{
                     width: size - size / 5 + "px",
                     right: size / 5 + "px",
@@ -52,9 +34,9 @@ function RighHeader({ children }) {
                     return (
                       <li
                         key={i}
-                        className="text-sm hover:text-amber-500 duration-300"
+                        className="text-sm hover:text-amber-500 duration-300  flex items-center "
                       >
-                        <Link href={`/category/${item.menu[1]}/${items[1]}`}>
+                        <Link href={`/category/${item.menu[1]}/${items[1]}`} className="border-r-4 border-amber-500 pr-3">
                           <span>{items[0]}</span>
                         </Link>
                       </li>

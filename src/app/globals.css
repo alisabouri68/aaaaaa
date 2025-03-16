@@ -28,6 +28,19 @@ body {
   display: flex;
   flex-direction: column;
 }
+.deactivenav{
+  visibility: hidden;
+  opacity: 0;
+  top: 120px;
+  right: -120px;
+}
+.activenav{
+  visibility: visible;
+  opacity: 1;
+  top: 84px;
+  right: 0;
+}
+
 .breadcrumb-parent {
   padding: 5px 15px;
   > div {
