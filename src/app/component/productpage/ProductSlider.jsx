@@ -11,7 +11,7 @@ function ProductSlider({product}) {
                 const findProduct = items.title+"-"+items.id
                 if (findProduct === product) {
                     return (
-                        <div key={items.id} className='relative shadow dark:shadow-gray-200 shadow-gray-500 rounded-lg h-full'>
+                        <div key={items.id} className='relative shadow dark:shadow-gray-200 shadow-gray-500 rounded-2xl h-full'>
                             <Image
                                 className='w-full h-full object-cover rounded-lg'
                                 src={items.img[selectedImageIndex]}

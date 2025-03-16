@@ -11,15 +11,12 @@ function ProductInfo({ product }) {
   const { dataProduct } = UseDataStore();
   const { shoppingCart, setShoppingCart, removeShopingCart, increaseCounter, decreaseCounter } = UseButtonAddBascket();
 
-  // Find product using more efficient method
   const selectedProduct = dataProduct.find(item => 
     `${item.title}-${item.id}` === product
   );
 
-  // Check if product is in cart
   const isInCart = shoppingCart.some(item => item.id === selectedProduct?.id);
 
-  // Handle price display
   const formatPrice = (price) => 
     new Intl.NumberFormat('fa-IR').format(price);
 
@@ -29,8 +26,8 @@ function ProductInfo({ product }) {
 
   return (
     <div className='p-5'>
-      <div className='shadow dark:shadow-gray-200 shadow-gray-500 flex flex-col gap-5 w-full h-full p-5'>
-        {/* Header Section */}
+      <div className='shadow dark:shadow-gray-200 shadow-gray-500 flex flex-col gap-5 w-full h-full p-5 rounded-2xl'>
+        {/* توضیحات محصول */}
         <div className='flex items-center border-b border-gray-400 pb-2'>
           <MdOutlineKeyboardArrowLeft className='text-5xl text-amber-500' />
           <h3 className='text-lg lg:text-2xl pr-2'>
@@ -38,7 +35,7 @@ function ProductInfo({ product }) {
           </h3>
         </div>
 
-        {/* Price Section */}
+        {/* قیمت */}
         <div className='flex items-center gap-10'>
           {selectedProduct.discount && (
             <s className="text-gray-400 text-lg">
@@ -57,7 +54,7 @@ function ProductInfo({ product }) {
           </div>
         </div>
 
-        {/* Product Features */}
+        {/*  ویژگی ها */}
         <div className='flex flex-col gap-3'>
           <h6 className='text-lg'>ویژگی های محصول:</h6>
           <div className='flex flex-col gap-2 text-sm'>
@@ -69,7 +66,7 @@ function ProductInfo({ product }) {
           </div>
         </div>
 
-        {/* Color Selection */}
+        {/* رنگ */}
         <div className='flex items-center gap-3'>
           <h4>رنگ:</h4>
           <div className="flex gap-2">
@@ -86,7 +83,7 @@ function ProductInfo({ product }) {
           </div>
         </div>
 
-        {/* Country of Origin */}
+        {/*کشور */}
         <div>
           <h4>کشور سازنده: {selectedProduct.country}</h4>
         </div>
@@ -101,7 +98,7 @@ function ProductInfo({ product }) {
           </select>
         )}
 
-        {/* Cart Controls */}
+        {/* button product */}
         <div className='flex flex-col items-center text-xl gap-5 py-10'>
           <div className='flex items-center gap-5'>
             {isInCart ? (

@@ -16,7 +16,7 @@ function page({ params }) {
             <div className="hidden lg:flex lg:col-span-3 relative rounded-lg">
               {/* <Filtering /> */}
             </div>
-            <div className="col-span-12 lg:col-span-9 flex flex-wrap *:min-h-[450px] *:max-h-[450px] *:w-full *:md:w-[50%] *:lg:w-[33%] *:xl:w-[25%] px-3">
+            <div className="col-span-12 lg:col-span-9 flex flex-wrap *:min-h-[450px] *:max-h-[450px] *:w-full *:md:w-[50%] *:lg:w-[33%] *:xl:w-[25%] pr-4">
               <CardItems slug={slug} />
             </div>
           </div>
