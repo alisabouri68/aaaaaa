@@ -10,7 +10,7 @@ function CardItemChild({ slug }) {
                 dataProduct.map((item) => {
                   if(item.title === slug)
                     return (
-                        <Card xxx={item}  key={item.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 '/>
+                        <Card xxx={item} styleSlide="lg:flex"  key={item.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 '/>
                     );
                 })}
         </>

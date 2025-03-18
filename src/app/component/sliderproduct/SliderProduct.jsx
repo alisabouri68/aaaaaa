@@ -1,53 +1,67 @@
-// "use client"
-// import React from 'react'
-// import { FaPenAlt, FaPenFancy, FaPen, FaMouse, FaPrint } from "react-icons/fa";
-// import { TbGoGame } from "react-icons/tb";
-// import { GiSewingMachine } from "react-icons/gi";
-// import { GiSewingNeedle } from "react-icons/gi";
-// import Container from '../header/Container'
-// import { dbmegamenu } from '../header/db';
-// import { allproducts } from '../header/db';
-// import Link from 'next/link';
-// import Image from 'next/image';
-// import img from '../../../../public/img/logo.png'
-// import Card from '../cardItem/Card';
-
-// function SliderProduct({ styles, i, title, href, colorText, }) {
-//     const icons = [<FaPenAlt />, <FaPenFancy />, <FaPen />, <FaMouse />, <FaPrint />, <TbGoGame />, <GiSewingMachine />, <GiSewingNeedle />]
-//     return (
-//         <section className={`${styles} flex min-h-full w-full bgimage`}>
-//             <Container>
-//                 <div className='w-full h-full flex flex-col'>
-//                     <div className={`${styles} text-white items-center flex gap-5 py-5 px-3`}>
-//                         <div className='inline-block '><span className='text-3xl'>{icons[i]}</span></div>
-//                         <div className='text-2xl font-semibold'>{title}</div>
-//                         <div className=''><Link href={`/category/${href}`} className={`bg-white rounded-lg px-3 py-1 ${colorText}`}><span>مشاهده همه</span></Link></div>
-//                     </div>
-//                     <div className='w-full'>
-//                         <div className='flex items-center w-full py-3 *:min-h-[260px] *:max-h-[260px] *:w-[50%] *:lg:w-40 px-3 *:shrink-0'>
-//                             {dbmegamenu[i] ? dbmegamenu[i].submenu.map((item, index) => {
-//                                 return (
-
-//                                     allproducts ? allproducts.map((val, ix) => {
-//                                         if (item[1] && item[1] === val.products) {
-//                                             return (
-//                                                 <Card xxx={val.productsitems[0]} styles='hidden' key={val.productsitems[0].id} darkstyle='bg-white text-black ' />
-
-
-
-
-//                                             )
-
-//                                         }
-//                                     }) : <span>wwwwwwwwwwwwwwwwww</span>
-//                                 )
-//                             }) : <span>fffffffffffffffffffffffff</span>}
-//                         </div>
-//                     </div>
-//                 </div>
-//             </Container>
-//         </section>
-//     )
-// }
-
-// export default SliderProduct
+"use client"
+import React, { useEffect, useRef } from 'react'
+import { FaPenAlt } from "react-icons/fa";
+import Container from '../header/Container'
+import { UseDataStore } from '@/app/zustand/useDataStore';
+import Link from 'next/link';
+import Card from '../cardItem/Card';
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
+function SliderProduct() {
+    const { SetDataProduct, dataProduct } = UseDataStore();
+    useEffect(() => {
+        fetch("https://67cd78d0dd7651e464ee7491.mockapi.io/api/v1/products")
+            .then(response => response.json())
+            .then(data => SetDataProduct(data))
+            .catch(error => console.error('Error fetching products:', error));
+    }, [SetDataProduct]);
+    const slidref = useRef();
+    const nextSlideHandler = () => {
+        if (!slidref.current) return;
+        const slideWidth = slidref.current.children[0]?.children[0]?.offsetWidth || 0;
+        slidref.current.scrollBy({
+            left: slideWidth,
+            behavior: "smooth",
+        });
+    };
+    const prevSlideHandler = () => {
+        if (!slidref.current) return;
+        const slideWidth = slidref.current.children[0]?.children[0]?.offsetWidth || 0;
+        slidref.current.scrollBy({
+            left: -slideWidth,
+            behavior: "smooth",
+        });
+    };
+    return (
+        <Container>
+            <section className="w-full bg-rose-700 bgimage rounded-2xl relative">
+                <div className='w-full flex flex-col'>
+                    <div className="text-white flex items-center gap-5 py-5 px-3">
+                        <div className='text-3xl'><FaPenAlt /></div>
+                        <h2 className='text-2xl font-semibold'>لوازم تحریر</h2>
+                        <Link
+                            href="/category/writing-supplies"
+                            className="bg-white rounded-lg px-3 py-1 text-rose-700 hover:bg-gray-100 transition-colors"
+                        >
+                            مشاهده همه
+                        </Link>
+                    </div>
+                    <div className='w-full overflow-x-hidden' ref={slidref}>
+                        <div className='flex px-3 flex-nowrap w-max *:w-[180px] *:lg:w-[220px] ' >
+                            {dataProduct?.map(item => (
+                                <Card
+                                    key={item.id}
+                                    xxx={item}
+                                    styleSlide="min-w-[200px] lg:min-w-[240px] max-h-[260px] shrink-0 "
+                                    darkstyle="bg-white text-black"
+                                />
+                            ))}
+                        </div>
+                    </div>
+                    <div className='absolute top-[50%] left-0 '><button onClick={nextSlideHandler} className='bg-background text-amber-500 p-2 text-2xl rounded-l-lg'><span><FaAngleLeft /></span></button></div>
+                    <div className='absolute top-[50%] right-0'><button onClick={prevSlideHandler} className='bg-background text-amber-500 p-2 text-2xl rounded-r-lg'><span><FaAngleRight /></span></button></div>
+                </div>
+            </section>
+        </Container>
+    )
+}
+export default SliderProduct

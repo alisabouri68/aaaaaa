@@ -28,7 +28,7 @@ function ShoppingCart() {
         <main className='flex  grow h-[70vh] overflow-y-scroll scrollbar-hide'>
             <Container>
                 <div className='flex flex-wrap '>
-                    <div className=" lg:w-[65%] w-full overflow-x-auto shadow-md sm:rounded-lg">
+                    <div className=" lg:w-[65%] w-full overflow-x-auto shadow-md dark:shadow-gray-600 sm:rounded-lg">
                         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                             <thead className="text-xs  text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
@@ -138,8 +138,8 @@ function ShoppingCart() {
                             </tbody>
                         </table>
                     </div>
-                    <div className='lg:w-[35%] text-sm w-full shadow-md sm:rounded-lg p-4'>
-                        <div className='*:py-5 sticky top-0'>
+                    <div className='lg:w-[35%] text-sm w-full shadow-md dark:shadow-gray-600 p-4'>
+                        <div className='*:py-3 sticky top-0 shadow-md dark:shadow-gray-600 sm:rounded-lg p-4'>
                             <h6 className='text-xl font-bold mb-4'>جمع کل سبد خرید</h6>
                             <div className='flex justify-between mb-2 border-b'>
                                 <span>جمع جزء:</span>
@@ -150,7 +150,7 @@ function ShoppingCart() {
                             </div>
                             <div className='flex items-center'>
                                 <div><span>حمل و نقل</span></div>
-                                <div className='flex flex-col items-end justify-end grow'>
+                                <div className='flex flex-col gap-3 items-end justify-end grow'>
                                     <div><span>ارسال پستی: 60,000 تومان</span></div>
                                     <div><span>گزینه های حمل و نقل در هنگام پرداخت به روز می شوند.</span></div>
                                     <div><span>محاسبه حمل و نقل</span></div>

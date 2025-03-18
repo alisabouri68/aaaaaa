@@ -9,7 +9,6 @@ function ProductPage({product}) {
                 <div className='flex items-center'>
                     <ProductTop product={product} />
                 </div>
-
             </Container>
         </main>
     )
