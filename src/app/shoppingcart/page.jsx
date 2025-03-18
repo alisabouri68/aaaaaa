@@ -68,16 +68,18 @@ function ShoppingCart() {
 
                                         </td>
                                         <td className="px-1 py-4 font-semibold text-gray-900 dark:text-white">
-                                            {product.description}
-                                            <span className="lg:hidden">
-                                                {
-                                                    formatPrice(
-                                                        product.discount
-                                                            ? product.price * (1 - product.discount / 100) * product.counter
-                                                            : product.price * product.counter)
-                                                }
-                                            </span>
-                                            <span className="mr-2">تومان</span>
+                                            <div className='flex flex-col'>
+                                                <span>{product.description}</span>
+                                                <span className="lg:hidden text-amber-500">
+                                                    {
+                                                        formatPrice(
+                                                            product.discount
+                                                                ? product.price * (1 - product.discount / 100) * product.counter
+                                                                : product.price * product.counter)
+                                                    }
+                                                <span className="mr-2 text-foreground">تومان</span>
+                                                </span>
+                                            </div>
                                         </td>
                                         <td className="px-1 py-4">
                                             <div className='flex gap-5'>
@@ -122,7 +124,7 @@ function ShoppingCart() {
                                             <span className="mr-2">تومان</span>
                                         </td>
                                         <td className="px-1 py-4">
-                                            <button href="#" className="font-medium text-amber-600 text-3xl hover:underline cursor-pointer" onClick={() => removeShopingCart(product.id)}>
+                                            <button href="#" className="font-medium text-amber-600 text-3xl hover:underline cursor-pointer ml-2" onClick={() => removeShopingCart(product.id)}>
                                                 <RiDeleteBin6Line />
                                             </button>
                                         </td>
