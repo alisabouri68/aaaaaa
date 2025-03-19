@@ -8,6 +8,9 @@ import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
 function Card({ xxx, styles, darkstyle, styleSlide }) {
     const { setShoppingCart } = UseButtonAddBascket()
     const [imageKeys, setImageKeys] = useState({});
+    const formatPrice = (price) => 
+        new Intl.NumberFormat('fa-IR').format(price);
+    
     const handleImageChange = (productId, imageIndex) => {
         setImageKeys(prevKeys => ({
             ...prevKeys,
@@ -43,12 +46,12 @@ function Card({ xxx, styles, darkstyle, styleSlide }) {
                             {xxx.description}
                         </p>
                     </div>
-                    <div className="flex flex-col items-center justify-center px-2 mb-5">
+                    <div className="flex flex-col items-center justify-center px-2 mb-8">
 
-                        <span>  {xxx.discount ? <s className="text-gray-400 -translate-y-2">{xxx.price}</s> : null}</span>
+                        <span>  {xxx.discount ? <s className="text-gray-400 -translate-y-2">{formatPrice(xxx.price)}</s> : null}</span>
 
                         <div className='flex items-center gap-2'>
-                            <span className="">{xxx.discount ? Math.abs((xxx.price * (xxx.discount / 100)) - xxx.price) : xxx.price}</span>
+                            <span className="">{formatPrice(xxx.discount ? Math.abs((xxx.price * (xxx.discount / 100)) - xxx.price) : xxx.price)}</span>
                             <span className="">تومان</span>
                         </div>
                     </div>

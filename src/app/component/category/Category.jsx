@@ -1,11 +1,17 @@
 "use client";
-import React, { useRef, useState} from "react";
+import React, { useRef, useState } from "react";
 import { dbmegamenu } from "@/app/component/header/db";
 import Container from "../header/Container";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import { useContainerSize } from "@/app/zustand/UseContainerSiza";
+import Image from "next/image";
+import { UseDataStore } from "@/app/zustand/useDataStore";
+import Card from "../cardItem/Card";
+
+
 function Category({ id }) {
-    const {size} = useContainerSize()
+    const { dataProduct, SetDataProduct } = UseDataStore()
+    const { size } = useContainerSize()
     const sliderRef = useRef(null);
     const [isDragging, setIsDragging] = useState(false)
     const [startX, setStartX] = useState(0)
@@ -48,7 +54,8 @@ function Category({ id }) {
     return (
         <section className="my-3 mx-4">
             <Container>
-                <div className="flex flex-col w-full overflow-hidden bg-gray-200 p-4 dark:bg-gray-600 rounded-lg relative">
+             <div className="flex flex-col gap-10">
+             <div className="flex flex-col w-full overflow-hidden bg-gray-200 p-4 dark:bg-gray-600 rounded-lg relative">
                     <div>
                         <h6 className="text-lg font-semibold">دسته بندی ها</h6>
                     </div>
@@ -61,19 +68,21 @@ function Category({ id }) {
                         onMouseLeave={endDrag}
                     >
                         {dbmegamenu && dbmegamenu.length > 0 ? (
-                            dbmegamenu.map((item, index) => {
+                            dbmegamenu.map((item) => {
                                 if (item.menu?.[1] === id) {
                                     return item.submenu?.map((val, i) => (
                                         <div
                                             className="p-3 flex"
                                             key={i}
-                                            style={{minWidth:size/6 + "px"}}
+                                            style={{ minWidth: size / 6 + "px" }}
                                         >
                                             <div className="w-full rounded-lg gap-1 grid overflow-hidden bg-gray-200 dark:bg-gray-600 shadow shadow-gray-500 dark:shadow-gray-400 p-2">
-                                                <img
+                                                <Image
                                                     src={val[2]}
+                                                    width={300}
+                                                    height={300}
                                                     alt={val[0]}
-                                                    className="rounded-lg w-full h-full"
+                                                    className="rounded-lg w-[300px] h-[300px]"
                                                     draggable="false"
                                                 />
                                                 <span>{val[0]}</span>
@@ -104,6 +113,22 @@ function Category({ id }) {
                         </button>
                     </div>
                 </div>
+                <div className="flex flex-wrap ">
+                    <div className="flex lg:w-[30%]">
+aaaa
+                    </div>
+                    <div className="flex flex-wrap lg:w-[70%] *:w-full *:md:w-[50%] *:lg:w-[33%] *:2xl:w-[25%]">
+                        {dataProduct && dataProduct.map(items => {
+                            return (
+                                <Card key={items.id} xxx={items} styleSlide="lg:flex" darkstyle="shadow shadow-gray-700 dark:shadow-gray-200" />
+                            )
+
+                        })
+
+                        }
+                    </div>
+                </div>
+             </div>
             </Container>
         </section>
     );
