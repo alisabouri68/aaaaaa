@@ -2,13 +2,13 @@
 import React, {useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import { useContainerSize } from '@/app/zustand/UseContainerSiza';
-
-function Nav({ children }) {
+import { ModalHandler } from "@/app/zustand/ModalStore";
+function Nav({ children}) {
     const { size } = useContainerSize();
-    const [navActive, setNavActive] = useState(false);
+    const{modal,setModal}=ModalHandler()
 
     const toggleNav = () => {
-        setNavActive(!navActive);
+        setModal()
     };
 
     return (
@@ -22,7 +22,7 @@ function Nav({ children }) {
                     </div>
                     <div
                         className={`${
-                            navActive 
+                            modal 
                                 ? "opacity-100 visible translate-y-0" 
                                 : "opacity-0 invisible -translate-y-2"
                         } absolute top-full -right-5 mt-2 transition-all duration-300 ease-in-out `}

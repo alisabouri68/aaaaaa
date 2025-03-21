@@ -16,7 +16,7 @@
   src: url("../../public/fonts/DanaFaNum-DemiBold.woff2");
 }
 .dark {
-  --background:oklch(0.279 0.041 260.031);
+  --background: oklch(0.279 0.041 260.031);
   --foreground: #ffffff;
 }
 body {
@@ -28,13 +28,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-.deactivenav{
+.deactivenav {
   visibility: hidden;
   opacity: 0;
   top: 120px;
   right: -120px;
 }
-.activenav{
+.activenav {
   visibility: visible;
   opacity: 1;
   top: 84px;
@@ -303,10 +303,10 @@ input[type="number"]::-webkit-outer-spin-button {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
-.cardp{
+.cardp {
   clip-path: polygon(0% 0%, 100% 0%, 101% 0%, 0% 78%);
 }
-.bgimage{
+.bgimage {
   background-image: url("../../public/img/baner.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -318,14 +318,23 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.before::before{
-  content:"";
-  position:absolute;
+.before::before {
+  content: "";
+  position: absolute;
   top: -40;
-  left:-40;
+  left: -40;
   background: red;
   display: flex;
   width: 80px;
   height: 80px;
   rotate: 45deg;
+}
+.pagination-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-controls button:not(:disabled):hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
 }

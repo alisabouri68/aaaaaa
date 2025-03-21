@@ -26,7 +26,6 @@ function Card({ xxx, styles, darkstyle, styleSlide }) {
                         {xxx.img[currentImageKey]?.trim() ? (
                             <Image
                                 className="rounded-2xl object-cover lg:w-full lg:h-full"
-                                layout="intrinsic"
                                 width={150}
                                 height={150}
                                 src={xxx.img[currentImageKey].trim()}

@@ -1,10 +1,13 @@
+
 import Link from "next/link";
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
+import { ModalHandler } from "@/app/zustand/ModalStore";
 function NavList({ icons, title, children , href}) {
+  const {setModal}= ModalHandler()
   return (
     <li className="w-full px-2 group/set duration-300 group/set ">
-      <Link className="flex py-3 duration-300 group-hover/set:text-amber-500" href={href} >
+      <Link className="flex py-3 duration-300 group-hover/set:text-amber-500" href={href} onClick={setModal} >
         <div className="flex items-center font-semibold gap-3 grow">
           <span className="text-lg text-gray-500">{icons}</span>
           <span>{title}</span>

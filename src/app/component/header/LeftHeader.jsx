@@ -5,7 +5,7 @@ import virgool from '../../../../public/img/virgool.png'
 import logo from '../../../../public/img/logo.png'
 function LeftHeader() {
   return (
-    <div className=" grow">
+    <div className=" grow bg-background">
         <Link href='/' className='flex items-center justify-end gap-2  h-full'>
         <h1 className='text-amber-500 font-semibold hidden md:flex'>فروشگاه آنلاین لوازم تحریر و کتاب </h1>
         <Image

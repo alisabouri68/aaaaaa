@@ -2,16 +2,16 @@
 import React from "react";
 import Nav from "./Nav";
 import NavList from "./NavList";
-import { FaPenAlt, FaPenFancy, FaPen, FaMouse, FaPrint } from "react-icons/fa";
-import { TbGoGame } from "react-icons/tb";
-import { GiSewingMachine } from "react-icons/gi";
+import { FaPenAlt} from "react-icons/fa";
 import Link from "next/link";
 import { useContainerSize } from "@/app/zustand/UseContainerSiza";
 import { dbmegamenu } from "./db";
+import { ModalHandler } from "@/app/zustand/ModalStore";
 function RighHeader({ children }) {
+    const {setModal}= ModalHandler()
   const { size } = useContainerSize();
   return (
-    <div className="grow flex items-center">
+    <div className="grow flex items-center bg-background">
       <Nav>
         {dbmegamenu &&
           dbmegamenu.map((item, index) => {
@@ -36,7 +36,7 @@ function RighHeader({ children }) {
                         key={i}
                         className="text-sm hover:text-amber-500 duration-300  flex items-center "
                       >
-                        <Link href={`/category/${item.menu[1]}/${items[1]}`} className="border-r-4 border-amber-500 pr-3">
+                        <Link href={`/category/${item.menu[1]}/${items[1]}`} className="border-r-4 border-amber-500 pr-3" onClick={setModal}>
                           <span>{items[0]}</span>
                         </Link>
                       </li>
