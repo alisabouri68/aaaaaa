@@ -6,7 +6,7 @@ import Image from "next/image";
 import img from '../../../../public/img/logo.png'
 import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
 function Card({ xxx, styles, darkstyle, styleSlide }) {
-    const { setShoppingCart } = UseButtonAddBascket()
+    const { shoppingCart, setShoppingCart } = UseButtonAddBascket();
     const [imageKeys, setImageKeys] = useState({});
     const formatPrice = (price) => 
         new Intl.NumberFormat('fa-IR').format(price);

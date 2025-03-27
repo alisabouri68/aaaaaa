@@ -23,7 +23,7 @@ function RighHeader({ children }) {
                 icons={<FaPenAlt />}
               >
                 <ul
-                  className="border border-gray-500 dark:border-gray-200 h-full duration-300 absolute top-0 flex flex-wrap *:w-[20%] p-3 rounded-l-lg"
+                  className="shadow-md shadow-gray-200 dark:shadow-gray-500 h-full duration-300 absolute top-0 flex flex-wrap *:w-[30%] p-3 rounded-l-lg"
                   style={{
                     width: size - size / 5 + "px",
                     right: size / 5 + "px",
@@ -36,7 +36,7 @@ function RighHeader({ children }) {
                         key={i}
                         className="text-sm hover:text-amber-500 duration-300  flex items-center "
                       >
-                        <Link href={`/category/${item.menu[1]}/${items[1]}`} className="border-r-4 border-amber-500 pr-3" onClick={setModal}>
+                        <Link href={`/category/${item.menu[1]}/${items[1]}`} className="lg:border-r-4 lg:border-amber-500 pr-3" onClick={setModal}>
                           <span>{items[0]}</span>
                         </Link>
                       </li>

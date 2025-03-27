@@ -6,9 +6,9 @@ import BtnToggleTheme from "./btnToggleTheme";
 import ShopingCart from "./ShopingCart";
 function Header() {
   return (
-    <header className="h-84px mb-1 bg-background">
+    <header className="h-84px mb-5 bg-background">
       <Container>
-        <div className="w-full h-full flex shadow shadow-gray-700 dark:shadow-gray-200 relative z-50">
+        <div className="w-full h-full flex shadow-md shadow-gray-200 dark:shadow-gray-500 relative z-50">
         <RighHeader>
           <ShopingCart/>
         <BtnToggleTheme />

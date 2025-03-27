@@ -7,40 +7,72 @@ import { useContainerSize } from "@/app/zustand/UseContainerSiza";
 import Image from "next/image";
 import { UseDataStore } from "@/app/zustand/useDataStore";
 import Card from "../cardItem/Card";
-
-
+import Filtering from "../filtering/Filtering";
+import { UseMinePriceStore } from '@/app/zustand/UseMinePriceStore';
+import { UseFilterCountry } from '@/app/zustand/UseFilterCountryIndex'
+import { UseFilterCountryStore } from '@/app/zustand/UseFilterCountryStore';
+import FilteringMobile from "../filtering/FilteringMobile";
+import ModalParent from "../modal/ModalParent";
+import { ModalParentHandler } from "@/app/zustand/ModalStoreParent";
+import FilterPrice from "../filtering/filterprice/FilterPrice";
+import FilterCountry from "../filtering/filtercountry/FilterCountry";
 function Category({ id }) {
-
-    const { dataProduct, SetDataProduct } = UseDataStore()
-    const { size } = useContainerSize()
+    const {index} = ModalParentHandler();
+    const {dataProduct, SetDataProduct } = UseDataStore()
+    const {size} = useContainerSize()
     const sliderRef = useRef(null);
     const [isDragging, setIsDragging] = useState(false)
     const [startX, setStartX] = useState(0)
     const [scrollLeft, setScrollLeft] = useState(0)
     const [dataProductSlice, setDataProductSlice] = useState([])
     const [flagPagination, setFlagPagination] = useState(1)
-    const [buttonPagination , setButtonPagination]=useState(0)
-    useEffect(() => {
-        fetch("https://67cd78d0dd7651e464ee7491.mockapi.io/api/v1/products")
-            .then(response => response.json())
-            .then(data => SetDataProduct(data))
-            .catch(error => console.error('Error fetching products:', error));
-    }, [SetDataProduct]);
+    const {setCountryIndex} = UseFilterCountry()
+    const {countryValue} = UseFilterCountryStore()
+    const {minPrice, maxPrice, changeValueMax} = UseMinePriceStore()
+    const [dataFilter, setDataFilter] = useState([]);
+        useEffect(() => {
+            fetch("https://67cd78d0dd7651e464ee7491.mockapi.io/api/v1/products")
+                .then(response => response.json())
+                .then(data => SetDataProduct(data))
+                .catch(error => console.error('Error fetching products:', error));
+        }, [SetDataProduct]);
+        useEffect(() => {
+            setFlagPagination(1)
+            const filtered = dataProduct.filter(item => {
+                const matchesCountry = countryValue !== "تمام کشور ها" ? item.country === countryValue : true
+                const price = Number(item.price) || 0
+                const matchesPrice = price >= minPrice && price <= maxPrice
+                return matchesCountry && matchesPrice
+            })
+            setDataFilter(filtered)
+            console.log(dataFilter)
+        }, [id, minPrice, maxPrice, countryValue, dataProduct]);
+        useEffect(() => {
+            setCountryIndex(dataProduct);
+            if (dataProduct.length > 0) {
+                const validPrices = dataProduct
+                    .map(item => Number(item.price))
+                    .filter(price => !isNaN(price))
+    
+                if (validPrices.length > 0) {
+                    const currentMax = Math.max(...validPrices)
+                    changeValueMax(currentMax)
+                }
+            }
+          }, [dataProduct]);
     useEffect(() => {
         if (dataProduct.length === 0) return;
         const paginationCount = 8;
         const startIndex = (flagPagination - 1) * paginationCount;
         const endIndex = flagPagination * paginationCount;
-        setDataProductSlice(dataProduct.slice(startIndex, endIndex));
-        setButtonPagination(dataProduct.length / 8)
-    }, [flagPagination, dataProduct]);
+        setDataProductSlice(dataFilter.slice(startIndex, endIndex));
+    }, [flagPagination, dataFilter]);
     const startDrag = (e) => {
         setIsDragging(true);
         setStartX(e.pageX - size);
         setScrollLeft(sliderRef.current.scrollLeft);
         e.preventDefault();
     };
-
     const whileDrag = (e) => {
         if (!isDragging) return;
         e.preventDefault();
@@ -48,11 +80,9 @@ function Category({ id }) {
         const walk = (x - startX) * 0.9;
         sliderRef.current.scrollLeft = scrollLeft - walk;
     };
-
     const endDrag = () => {
         setIsDragging(false);
     };
-
     const scrollToLeft = () => {
         if (sliderRef.current) {
             sliderRef.current.scrollBy({
@@ -69,7 +99,7 @@ function Category({ id }) {
             });
         }
     };
-    console.log(dataProductSlice)
+
     return (
         <section className="my-3 mx-4">
             <Container>
@@ -133,13 +163,16 @@ function Category({ id }) {
                         </div>
                     </div>
                     <div className="flex flex-wrap ">
-                        <div className="flex lg:w-[30%]">
-                            aaaa
+                        <div className="hidden lg:flex lg:w-[30%] px-3">
+                            <Filtering/>
+                        </div>
+                        <div className="flex lg:hidden w-full px-3">
+                            <FilteringMobile/>
                         </div>
                         <div className="flex flex-wrap lg:w-[70%] *:w-full *:md:w-[50%] *:lg:w-[33%] *:2xl:w-[25%]">
                             {dataProductSlice && dataProductSlice.map(items => {
                                 return (
-                                    <Card key={items.id} xxx={items} styleSlide="lg:flex" darkstyle="shadow shadow-gray-700 dark:shadow-gray-200" />
+                                    <Card key={items.id} xxx={items} styleSlide="lg:flex" darkstyle="shadow-md shadow-gray-300 dark:shadow-gray-500 hover:shadow-gray-500 duration-300 dark:hover:shadow-gray-300" />
                                 )
 
                             })
@@ -158,7 +191,7 @@ function Category({ id }) {
                             </button>
 
                             <div className="flex gap-2">
-    {Array.from({ length: Math.ceil(dataProduct.length / 8) }).map(
+    {Array.from({ length: Math.ceil(dataFilter.length / 8) }).map(
       (_, index) => (
         <button
           key={index}
@@ -188,6 +221,12 @@ function Category({ id }) {
                         </div>
                     </div>
                 </div>
+                <ModalParent >
+                {index === 2 ? <FilterPrice  /> :
+                index === 0 ? <FilteringBrand  /> :
+                  index === 1 ? <FilterCountry styles="rounded-lg min-w-full grid gap-5" styles2="flex items-center justify-around " /> :
+                    null}
+                </ModalParent>
             </Container>
         </section>
     );

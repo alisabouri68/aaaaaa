@@ -28,7 +28,7 @@ function Nav({ children}) {
                         } absolute top-full -right-5 mt-2 transition-all duration-300 ease-in-out `}
                     >
                         <ul 
-                            className="border border-gray-500 dark:border-gray-200 bg-background h-96 rounded-r-lg" 
+                            className="shadow-md shadow-gray-200 dark:shadow-gray-500 bg-background min-h-[90vh] rounded-r-lg" 
                             style={{ width: (size / 5) + "px" }}
                         >
                             {children}

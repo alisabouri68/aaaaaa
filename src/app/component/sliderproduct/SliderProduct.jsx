@@ -57,8 +57,8 @@ function SliderProduct() {
                             ))}
                         </div>
                     </div>
-                    <div className='absolute top-[50%] left-0 '><button onClick={nextSlideHandler} className='bg-background text-amber-500 p-2 text-2xl rounded-l-lg'><span><FaAngleLeft /></span></button></div>
-                    <div className='absolute top-[50%] right-0'><button onClick={prevSlideHandler} className='bg-background text-amber-500 p-2 text-2xl rounded-r-lg'><span><FaAngleRight /></span></button></div>
+                    <div className='absolute top-[50%] left-0 '><button onClick={nextSlideHandler} className='bg-background text-amber-500 p-2 text-2xl rounded-r-lg'><span><FaAngleLeft /></span></button></div>
+                    <div className='absolute top-[50%] right-0'><button onClick={prevSlideHandler} className='bg-background text-amber-500 p-2 text-2xl rounded-l-lg'><span><FaAngleRight /></span></button></div>
                 </div>
             </section>
         </Container>

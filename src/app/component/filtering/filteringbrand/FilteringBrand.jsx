@@ -1,11 +1,8 @@
 // 'use client'
 // import React, { useEffect, useState } from 'react'
-// import { UseFilterBrandIndex } from '@/app/zustand/UseFilterBrandIndex'
-// import { allproducts } from '../../header/db'
 // import { UseFilterBrandStore } from "@/app/zustand/UseFilterBrandStore";
-// function FilteringBrand({ styles }) {
+// function FilteringBrand({ styles , slug}) {
 //     const {brandValue , setBrandValue} = UseFilterBrandStore()
-//   const { brandIndex } = UseFilterBrandIndex()
 //   const [items, SetItemms] = useState([])
 //   useEffect(() => {
 //     const arrItems = allproducts[brandIndex]?.productsitems.map((brand) => brand.brand.toString()) || []
