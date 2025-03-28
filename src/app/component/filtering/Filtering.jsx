@@ -15,14 +15,14 @@ function Filtering({slug}) {
   ];
 
   return (
-    <div className="sticky flex flex-col top-10 right-0 h-[80vh] shadow shadow-gray-700 dark:shadow-gray-200 min-w-full rounded-2xl overflow-hidden text-foreground bg-background">
+    <div className="sticky flex flex-col top-10 right-0 h-[80vh] shadow-mdshadow-gray-200 dark:shadow-gray-700 min-w-full rounded-2xl overflow-hidden text-foreground bg-background">
       {items.length > 0
         ? items.map((accordion, index) => {
           return (
             <div
               key={index}
               className={`${isOpen === index ? "grow" : "grow-0"
-                } shadow shadow-gray-700 dark:shadow-gray-200  px-5 transition-all `}
+                } shadow-mdshadow-gray-700 dark:shadow-gray-200  px-5 transition-all `}
 
             >
               <div className="flex items-center justify-between  py-5" onClick={() => setIsopen(index)}>

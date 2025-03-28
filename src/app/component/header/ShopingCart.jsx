@@ -6,7 +6,7 @@ import { UseButtonAddBascket } from '@/app/zustand/UseButtonAddBascket';
 function ShopingCart() {
     const { shoppingCart } = UseButtonAddBascket()
     return (
-        <div className='h-full flex items-center relative px-5'>
+        <div className='h-full flex items-center relative px-2 lg:px-5'>
             <Link href='/shoppingcart'>
                 <CiShoppingBasket className='text-2xl' />
             </Link>

@@ -49,7 +49,7 @@ function CardItemChild({ slug }) {
                 dataFilter.map((item) => {
                     if (item.title === slug)
                         return (
-                            <Card xxx={item} styleSlide="lg:flex bg-background" key={item.id} darkstyle='shadow shadow-gray-700 dark:shadow-gray-200 ' />
+                            <Card xxx={item} styleSlide="lg:flex bg-background" key={item.id} darkstyle='shadow-md shadow-gray-200 dark:shadow-gray-700 ' />
                         );
                 })}
         </>

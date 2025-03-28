@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Header />
           {children}
+          <ModalParent/>
           <Modal />
           <Footer />
         </ThemeProvider>

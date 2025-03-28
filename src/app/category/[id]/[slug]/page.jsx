@@ -6,12 +6,7 @@ import Container from "@/app/component/header/Container";
 import CardItems from "@/app/component/cardItem/CardItems";
 import Filtering from "@/app/component/filtering/Filtering";
 import FilteringMobile from "@/app/component/filtering/FilteringMobile";
-import { ModalParentHandler } from "@/app/zustand/ModalStoreParent";
-import FilterPrice from "@/app/component/filtering/filterprice/FilterPrice";
-import FilterCountry from "@/app/component/filtering/filtercountry/FilterCountry";
-import ModalParent from "@/app/component/modal/ModalParent";
 function page({ params }) {
-  const {index} = ModalParentHandler();
   const { slug } = use(params);
   return (
     <>
@@ -29,12 +24,6 @@ function page({ params }) {
               <CardItems slug={slug} />
             </div>
           </div>
-          <ModalParent >
-                {index === 2 ? <FilterPrice  /> :
-                index === 0 ? <FilteringBrand  /> :
-                  index === 1 ? <FilterCountry styles="rounded-lg min-w-full grid gap-5" styles2="flex items-center justify-around " /> :
-                    null}
-                </ModalParent>
         </Container>
       </main>
     </>

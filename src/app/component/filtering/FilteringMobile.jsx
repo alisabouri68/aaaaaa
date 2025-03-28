@@ -17,16 +17,7 @@ function FilteringMobile() {
     setIsModal()
     setIndex(i)
   }
-  useEffect(() => {
-    if (isModal) {
-      document.body.classList.add("overflow-y-hidden");
-    } else {
-      document.body.classList.remove("overflow-y-hidden");
-    }
-    return () => {
-      document.body.classList.remove("overflow-y-hidden");
-    };
-  }, [isModal]);
+
   return (
     <div className="flex items-center justify-evenly w-full mb-3">
       {items.length > 0

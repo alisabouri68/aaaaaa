@@ -125,7 +125,7 @@ function Category({ id }) {
                                                 key={i}
                                                 style={{ minWidth: size / 6 + "px" }}
                                             >
-                                                <div className="w-full rounded-lg gap-1 grid overflow-hidden bg-gray-200 dark:bg-gray-600 shadow shadow-gray-500 dark:shadow-gray-400 p-2">
+                                                <div className="w-full rounded-lg gap-1 grid overflow-hidden bg-gray-200 dark:bg-gray-600 shadow-mdshadow-gray-500 dark:shadow-gray-400 p-2">
                                                     <Image
                                                         src={val[2]}
                                                         width={300}
